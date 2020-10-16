@@ -1,3 +1,6 @@
+h3 {
+  font-size: 18px; }
+
 .navigation {
   display: none;
   backdrop-filter: blur(8px);
@@ -50,7 +53,8 @@ header {
   animation-delay: 1s; }
 
 main {
-  position: relative; }
+  position: relative;
+  top: 5vh; }
 
 .circle-1 {
   border-radius: 100%;
@@ -132,5 +136,48 @@ main {
 
 .hover:hover {
   border: 1px solid #EF435E; }
+
+/* CIRCLE LINKS */
+.branding {
+  background-color: #6B408E;
+  height: 30vw;
+  width: 30vw;
+  border-radius: 100%;
+  top: 45vh;
+  left: 3.5vw;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  color: white; }
+  .branding h3 {
+    margin-top: 11vw; }
+
+.web {
+  background-color: #EF435E;
+  height: 30vw;
+  width: 30vw;
+  border-radius: 100%;
+  top: 50vh;
+  left: 35vw;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  color: white; }
+  .web h3 {
+    margin-top: 11vw; }
+
+.social-media {
+  background-color: #00AE97;
+  height: 30vw;
+  width: 30vw;
+  border-radius: 100%;
+  top: 45vh;
+  right: 3.5vw;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  color: white; }
+  .social-media h3 {
+    margin-top: 9vw; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,3 +1,15 @@
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+  font-size: 18px;
+}
+
 .navigation{
   display: none;
   backdrop-filter: blur(8px);
@@ -43,6 +55,7 @@ transition: .25s;
 header{
   padding: 25px 0px 0px 0px!important;
   position: absolute;
+
 }
 
 .toggle-nav{
@@ -63,6 +76,7 @@ header{
 
 main{
   position: relative;
+  top: 5vh;
 }
 
 .circle-1{
@@ -151,4 +165,55 @@ main{
 
 .hover:hover{
   border: 1px solid #EF435E;
+}
+
+
+/* CIRCLE LINKS */
+
+.branding{
+  background-color: #6B408E;
+  height: 30vw;
+  width: 30vw;
+  border-radius: 100%;
+  top: 45vh;
+  left: 3.5vw;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  h3{
+      margin-top: 11vw;
+  }
+}
+
+.web{
+  background-color: #EF435E;
+  height: 30vw;
+  width: 30vw;
+  border-radius: 100%;
+  top: 50vh;
+  left: 35vw;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  h3{
+      margin-top: 11vw;
+  }
+}
+
+.social-media{
+  background-color: #00AE97;
+  height: 30vw;
+  width: 30vw;
+  border-radius: 100%;
+  top: 45vh;
+  right: 3.5vw;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+h3{
+    margin-top: 9vw;
+}
 }
