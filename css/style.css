@@ -43,7 +43,7 @@ header {
   padding: 25px 0px 0px 0px !important;
   position: absolute;
   z-index: 20;
-  box-shadow: 0 2px 10px grey; }
+  box-shadow: 0 2px 10px lightgrey; }
 
 .toggle-nav {
   margin: 20px; }
@@ -249,5 +249,20 @@ main {
   100% {
     transform: scale(1);
     -webkit-transform: scale(1); } }
+.map-container {
+  overflow: hidden;
+  padding-top: 10px !important;
+  position: relative;
+  height: 310px;
+  margin-top: 75px; }
+
+.map {
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  box-shadow: 0 -2px 10px lightgrey;
+  width: 150vw;
+  bottom: 0;
+  left: -25vw;
+  position: absolute; }
 
 /*# sourceMappingURL=style.css.map */
