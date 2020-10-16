@@ -13,6 +13,7 @@ h3{
 .navigation{
   display: none;
   backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   transition: .25s;
   opacity: 1;
   position: fixed;
@@ -181,9 +182,22 @@ main{
   text-align: center;
   font-weight: bold;
   color: white;
+  transition: .25s;
   h3{
       margin-top: 11vw;
   }
+}
+.branding:hover{
+  color: white;
+  text-decoration: none;
+}
+.branding:hover{
+  color: white;
+  text-decoration: none;
+  height: 32vw;
+  width: 32vw;
+  left: 2vw;
+  top: 44.5vh;
 }
 
 .web{
@@ -197,9 +211,18 @@ main{
   text-align: center;
   font-weight: bold;
   color: white;
+  transition: .25s;
   h3{
       margin-top: 11vw;
   }
+}
+.web:hover{
+  color: white;
+  text-decoration: none;
+  height: 32vw;
+  width: 32vw;
+  top: 49vh;
+  left: 34vw;
 }
 
 .social-media{
@@ -213,7 +236,16 @@ main{
   text-align: center;
   font-weight: bold;
   color: white;
+  transition: .25s;
 h3{
     margin-top: 9vw;
 }
+}
+.social-media:hover{
+  color: white;
+  text-decoration: none;
+  height: 32vw;
+  width: 32vw;
+  right: 2vw;
+  top: 44.5vh;
 }
