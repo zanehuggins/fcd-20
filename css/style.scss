@@ -14,6 +14,7 @@ h3{
   display: none;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
+  -moz-background-color: white;
   transition: .25s;
   opacity: 1;
   position: fixed;
@@ -78,6 +79,10 @@ header{
 main{
   position: relative;
   top: 5vh;
+}
+
+.home{
+  height: 80vh;
 }
 
 .circle-1{
@@ -183,6 +188,7 @@ main{
   font-weight: bold;
   color: white;
   transition: .25s;
+  animation: scale 1s;
   h3{
       margin-top: 11vw;
   }
@@ -212,6 +218,8 @@ main{
   font-weight: bold;
   color: white;
   transition: .25s;
+  animation: scale-2 1s;
+
   h3{
       margin-top: 11vw;
   }
@@ -237,10 +245,12 @@ main{
   font-weight: bold;
   color: white;
   transition: .25s;
+  animation: scale-3 1s;
 h3{
     margin-top: 9vw;
 }
 }
+
 .social-media:hover{
   color: white;
   text-decoration: none;
@@ -249,3 +259,44 @@ h3{
   right: 2vw;
   top: 44.5vh;
 }
+
+@keyframes scale {
+       0% {
+           transform: scale(0);
+           -webkit-transform: scale(0);
+       }
+       100% {
+           transform: scale(1.0);
+           -webkit-transform: scale(1.0);
+       }
+   }
+
+   @keyframes scale-2 {
+          0% {
+              transform: scale(0);
+              -webkit-transform: scale(0);
+          }
+          10% {
+              transform: scale(0);
+              -webkit-transform: scale(0);
+          }
+          100% {
+              transform: scale(1.0);
+              -webkit-transform: scale(1.0);
+          }
+      }
+
+      @keyframes scale-3 {
+             0% {
+                 transform: scale(0);
+                 -webkit-transform: scale(0);
+             }
+             15% {
+                 transform: scale(0);
+                 -webkit-transform: scale(0);
+             }
+             100% {
+                 transform: scale(1.0);
+                 -webkit-transform: scale(1.0);
+             }
+         }

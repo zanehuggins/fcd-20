@@ -5,6 +5,7 @@ h3 {
   display: none;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
+  -moz-background-color: white;
   transition: .25s;
   opacity: 1;
   position: fixed;
@@ -56,6 +57,9 @@ header {
 main {
   position: relative;
   top: 5vh; }
+
+.home {
+  height: 80vh; }
 
 .circle-1 {
   border-radius: 100%;
@@ -150,7 +154,8 @@ main {
   text-align: center;
   font-weight: bold;
   color: white;
-  transition: .25s; }
+  transition: .25s;
+  animation: scale 1s; }
   .branding h3 {
     margin-top: 11vw; }
 
@@ -177,7 +182,8 @@ main {
   text-align: center;
   font-weight: bold;
   color: white;
-  transition: .25s; }
+  transition: .25s;
+  animation: scale-2 1s; }
   .web h3 {
     margin-top: 11vw; }
 
@@ -200,7 +206,8 @@ main {
   text-align: center;
   font-weight: bold;
   color: white;
-  transition: .25s; }
+  transition: .25s;
+  animation: scale-3 1s; }
   .social-media h3 {
     margin-top: 9vw; }
 
@@ -211,5 +218,33 @@ main {
   width: 32vw;
   right: 2vw;
   top: 44.5vh; }
+
+@keyframes scale {
+  0% {
+    transform: scale(0);
+    -webkit-transform: scale(0); }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1); } }
+@keyframes scale-2 {
+  0% {
+    transform: scale(0);
+    -webkit-transform: scale(0); }
+  10% {
+    transform: scale(0);
+    -webkit-transform: scale(0); }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1); } }
+@keyframes scale-3 {
+  0% {
+    transform: scale(0);
+    -webkit-transform: scale(0); }
+  15% {
+    transform: scale(0);
+    -webkit-transform: scale(0); }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1); } }
 
 /*# sourceMappingURL=style.css.map */
