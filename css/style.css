@@ -423,4 +423,14 @@ main {
 .item-8:hover {
   transform: scale(1.25); }
 
+/* PORTFOLIO ---------------------------------------- */
+.article-portfolio {
+  position: relative;
+  top: 450px; }
+  .article-portfolio ul {
+    list-style: none; }
+
+.item-display {
+  display: none; }
+
 /*# sourceMappingURL=style.css.map */

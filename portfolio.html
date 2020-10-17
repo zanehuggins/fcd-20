@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/actions.js"></script>
 
   </head>
 
@@ -51,8 +52,8 @@
                               <img src="images/components/portfolio.svg" alt="Design Redefined" class="tagline">
                                   </div><!-- CIRCLE 2-->
 
-<a href="#" class="portfolio-item item-1"><img src="images/portfolio/champion/icon.svg" alt="Champion Trophies & Awards logo"></a>
-<a href="#" class="portfolio-item item-2"><img src="images/portfolio/burns-scalo/icon.svg" alt="Burns Scalo logo"></a>
+<a href="#" class="portfolio-item item-1" onclick="toggleDisplay2()"><img src="images/portfolio/champion/icon.svg" alt="Champion Trophies & Awards logo"></a>
+<a href="#" class="portfolio-item item-2" onclick="toggleDisplay3()"><img src="images/portfolio/burns-scalo/icon.svg" alt="Burns Scalo logo"></a>
 <a href="#" class="portfolio-item item-3"><img src="images/portfolio/forever-greenmont/icon.svg" alt="Forever Greenmont logo"></a>
 <a href="#" class="portfolio-item item-4"><img src="images/portfolio/lrapa/icon.svg" alt="Morgantown Land Reuse and Preservation Agency logo"></a>
 <a href="#" class="portfolio-item item-5"><img src="images/portfolio/pride/icon.svg" alt="Pride Campaign logo"></a>
@@ -62,27 +63,35 @@
 
 </main>
 
+<article class="article-portfolio col-12 p-0 float-left">
 
+
+  <div class="display-off item-display col-12 p-0 float-left" id="item-1">
+    <h3 class="col-12 float-left">CHAMPION TROPHIES & AWARDS</h3>
+    <ul class="col-12 float-left">
+      <li class="col-12 float-left p-0">Full Brand</li>
+      <li class="col-12 float-left p-0">Website</li>
+      <li class="col-12 float-left p-0">Social Media Graphics</li>
+    </ul>
+  </div>
+
+
+
+  <div class="item-display col-12 p-0 float-left" id="item-2">
+    <h3 class="col-12 float-left">BURNS SCALO REAL ESTATE</h3>
+    <ul class="col-12 float-left">
+      <li class="col-12 float-left p-0">Full Brand</li>
+      <li class="col-12 float-left p-0">Website</li>
+      <li class="col-12 float-left p-0">Social Media Graphics</li>
+    </ul>
+  </div>
+
+
+</article>
 
   </div> <!-- CLOSES FLUID GRID -->
 
-<script>
-  function toggleDisplay() {
-    var x = document.getElementById("navigation");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
-  </script>
 
-<script>
-  function animate() {
-    var element = document.getElementById("navigation");
-    element.classList.toggle("animate");
-  }
-  </script>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>

@@ -530,3 +530,21 @@ transition: .25s;
 .item-8:hover{
   transform: scale(1.25);
 }
+
+/* PORTFOLIO ---------------------------------------- */
+
+.article-portfolio{
+  position: relative;
+  top: 450px;
+  ul{
+    list-style: none;
+  }
+}
+
+#champion{
+
+}
+
+.item-display{
+  display: none;
+}
