@@ -427,6 +427,11 @@ h3{
   height: 40px;
   width: 40px;
   animation: scale 1s;
+  transition: .5s;
+}
+
+.item-1:hover{
+  transform: scale(1.25);
 }
 
 .item-2{
@@ -435,6 +440,11 @@ top: 21vh;
 height: 50px;
 width: 50px;
 animation: scale-2 1s;
+transition: .5s;
+}
+
+.item-2:hover{
+  transform: scale(1.25);
 }
 
 .item-3{
@@ -443,6 +453,11 @@ top: 32vh;
 height: 40px;
 width: 40px;
 animation: scale-3 1s;
+transition: .25s;
+}
+
+.item-3:hover{
+  transform: scale(1.25);
 }
 
 .item-4{
@@ -451,6 +466,11 @@ top: 38vh;
 height: 50px;
 width: 50px;
 animation: scale-4 1s;
+transition: .25s;
+}
+
+.item-4:hover{
+  transform: scale(1.25);
 }
 
 .item-5{
@@ -459,6 +479,11 @@ animation: scale-4 1s;
   height: 40px;
   width: 40px;
   animation: scale-5 1s;
+  transition: .25s;
+}
+
+.item-5:hover{
+  transform: scale(1.25);
 }
 
 .item-6{
@@ -467,6 +492,11 @@ animation: scale-4 1s;
   height: 50px;
   width: 50px;
   animation: scale-6 1s;
+  transition: .25s;
+}
+
+.item-6:hover{
+  transform: scale(1.25);
 }
 
 .item-7{
@@ -475,6 +505,11 @@ animation: scale-4 1s;
   height: 40px;
   width: 40px;
   animation: scale-7 1s;
+  transition: .25s;
+}
+
+.item-7:hover{
+  transform: scale(1.25);
 }
 
 .item-8{
@@ -483,4 +518,9 @@ animation: scale-4 1s;
   height: 50px;
   width: 50px;
   animation: scale-8 1s;
+  transition: .25s;
+}
+
+.item-8:hover{
+  transform: scale(1.25);
 }

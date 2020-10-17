@@ -334,55 +334,87 @@ main {
   top: 8vh;
   height: 40px;
   width: 40px;
-  animation: scale 1s; }
+  animation: scale 1s;
+  transition: .5s; }
+
+.item-1:hover {
+  transform: scale(1.25); }
 
 .item-2 {
   right: 5vw;
   top: 21vh;
   height: 50px;
   width: 50px;
-  animation: scale-2 1s; }
+  animation: scale-2 1s;
+  transition: .5s; }
+
+.item-2:hover {
+  transform: scale(1.25); }
 
 .item-3 {
   right: 18vw;
   top: 32vh;
   height: 40px;
   width: 40px;
-  animation: scale-3 1s; }
+  animation: scale-3 1s;
+  transition: .25s; }
+
+.item-3:hover {
+  transform: scale(1.25); }
 
 .item-4 {
   right: 42vw;
   top: 38vh;
   height: 50px;
   width: 50px;
-  animation: scale-4 1s; }
+  animation: scale-4 1s;
+  transition: .25s; }
+
+.item-4:hover {
+  transform: scale(1.25); }
 
 .item-5 {
   left: 18vw;
   top: 32vh;
   height: 40px;
   width: 40px;
-  animation: scale-5 1s; }
+  animation: scale-5 1s;
+  transition: .25s; }
+
+.item-5:hover {
+  transform: scale(1.25); }
 
 .item-6 {
   left: 5vw;
   top: 21vh;
   height: 50px;
   width: 50px;
-  animation: scale-6 1s; }
+  animation: scale-6 1s;
+  transition: .25s; }
+
+.item-6:hover {
+  transform: scale(1.25); }
 
 .item-7 {
   left: 20vw;
   top: 8vh;
   height: 40px;
   width: 40px;
-  animation: scale-7 1s; }
+  animation: scale-7 1s;
+  transition: .25s; }
+
+.item-7:hover {
+  transform: scale(1.25); }
 
 .item-8 {
   right: 42vw;
   top: 2vh;
   height: 50px;
   width: 50px;
-  animation: scale-8 1s; }
+  animation: scale-8 1s;
+  transition: .25s; }
+
+.item-8:hover {
+  transform: scale(1.25); }
 
 /*# sourceMappingURL=style.css.map */
