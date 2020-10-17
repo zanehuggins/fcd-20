@@ -1,3 +1,6 @@
+html{
+  padding: 0!important;
+}
 h1{
 
 }
@@ -62,7 +65,7 @@ header{
   padding: 25px 0px 0px 0px!important;
   position: absolute;
   z-index: 20;
-box-shadow: 0 2px 10px lightgrey;
+
 }
 
 .toggle-nav{
@@ -265,6 +268,8 @@ h3{
   top: 44.5vh;
 }
 
+/* ANIMATIONS ---------------------------------------- */
+
 @keyframes scale {
        0% {
            transform: scale(0);
@@ -306,6 +311,83 @@ h3{
              }
          }
 
+         @keyframes scale-4 {
+                0% {
+                    transform: scale(0);
+                    -webkit-transform: scale(0);
+                }
+                20% {
+                    transform: scale(0);
+                    -webkit-transform: scale(0);
+                }
+                100% {
+                    transform: scale(1.0);
+                    -webkit-transform: scale(1.0);
+                }
+            }
+
+            @keyframes scale-5 {
+                   0% {
+                       transform: scale(0);
+                       -webkit-transform: scale(0);
+                   }
+                   25% {
+                       transform: scale(0);
+                       -webkit-transform: scale(0);
+                   }
+                   100% {
+                       transform: scale(1.0);
+                       -webkit-transform: scale(1.0);
+                   }
+               }
+
+               @keyframes scale-6 {
+                      0% {
+                          transform: scale(0);
+                          -webkit-transform: scale(0);
+                      }
+                      30% {
+                          transform: scale(0);
+                          -webkit-transform: scale(0);
+                      }
+                      100% {
+                          transform: scale(1.0);
+                          -webkit-transform: scale(1.0);
+                      }
+                  }
+
+                  @keyframes scale-7 {
+                         0% {
+                             transform: scale(0);
+                             -webkit-transform: scale(0);
+                         }
+                         35% {
+                             transform: scale(0);
+                             -webkit-transform: scale(0);
+                         }
+                         100% {
+                             transform: scale(1.0);
+                             -webkit-transform: scale(1.0);
+                         }
+                     }
+
+                     @keyframes scale-8 {
+                            0% {
+                                transform: scale(0);
+                                -webkit-transform: scale(0);
+                            }
+                            40% {
+                                transform: scale(0);
+                                -webkit-transform: scale(0);
+                            }
+                            100% {
+                                transform: scale(1.0);
+                                -webkit-transform: scale(1.0);
+                            }
+                        }
+
+
+
          .map-container{
            overflow: hidden;
            padding-top: 10px!important;
@@ -323,3 +405,82 @@ h3{
            left: -25vw;
            position: absolute;
          }
+
+
+/* PORTFOLIO PAGE */
+
+.portfolio-item{
+  position: absolute;
+  border-radius: 100%;
+  background-color: #F2F2F2;
+  box-shadow: 0 0 3px grey;
+  img{
+    height: 80%;
+    width: 80%;
+    margin: 10%;
+  }
+}
+
+.item-1{
+  right: 20vw;
+  top: 8vh;
+  height: 40px;
+  width: 40px;
+  animation: scale 1s;
+}
+
+.item-2{
+right: 5vw;
+top: 21vh;
+height: 50px;
+width: 50px;
+animation: scale-2 1s;
+}
+
+.item-3{
+right: 18vw;
+top: 32vh;
+height: 40px;
+width: 40px;
+animation: scale-3 1s;
+}
+
+.item-4{
+right: 42vw;
+top: 38vh;
+height: 50px;
+width: 50px;
+animation: scale-4 1s;
+}
+
+.item-5{
+  left: 18vw;
+  top: 32vh;
+  height: 40px;
+  width: 40px;
+  animation: scale-5 1s;
+}
+
+.item-6{
+  left: 5vw;
+  top: 21vh;
+  height: 50px;
+  width: 50px;
+  animation: scale-6 1s;
+}
+
+.item-7{
+  left: 20vw;
+  top: 8vh;
+  height: 40px;
+  width: 40px;
+  animation: scale-7 1s;
+}
+
+.item-8{
+  right: 42vw;
+  top: 2vh;
+  height: 50px;
+  width: 50px;
+  animation: scale-8 1s;
+}
