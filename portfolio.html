@@ -37,7 +37,7 @@
   </ul>
 </div>
 
-<main class="col-12 p-0 float-left">
+<main class="portfolio col-12 p-0 float-left">
   <div class="circle-1">
       </div><!-- CIRCLE 1-->
     <div class="circle-2 hover">
@@ -52,7 +52,7 @@
                               <img src="images/components/portfolio.svg" alt="Design Redefined" class="tagline">
                                   </div><!-- CIRCLE 2-->
 
-<a href="#" class="portfolio-item item-1" onclick="toggleDisplay2()"><img src="images/portfolio/champion/icon.svg" alt="Champion Trophies & Awards logo"></a>
+<a href="#" class="portfolio-item item-1" onclick="toggleDisplay2(); move(); closeIcon();" id="item-1-icon"><img src="images/portfolio/champion/icon.svg" alt="Champion Trophies & Awards logo"><div class="close" id="close"><p>X</p></div></a>
 <a href="#" class="portfolio-item item-2" onclick="toggleDisplay3()"><img src="images/portfolio/burns-scalo/icon.svg" alt="Burns Scalo logo"></a>
 <a href="#" class="portfolio-item item-3"><img src="images/portfolio/forever-greenmont/icon.svg" alt="Forever Greenmont logo"></a>
 <a href="#" class="portfolio-item item-4"><img src="images/portfolio/lrapa/icon.svg" alt="Morgantown Land Reuse and Preservation Agency logo"></a>
@@ -63,10 +63,10 @@
 
 </main>
 
-<article class="article-portfolio col-12 p-0 float-left">
+<article class="article-portfolio col-12 p-0 float-left" id="article-portfolio">
 
 
-  <div class="display-off item-display col-12 p-0 float-left" id="item-1">
+  <div class="item-display col-12 p-0 float-left" id="item-1">
     <h3 class="col-12 float-left">CHAMPION TROPHIES & AWARDS</h3>
     <ul class="col-12 float-left">
       <li class="col-12 float-left p-0">Full Brand</li>

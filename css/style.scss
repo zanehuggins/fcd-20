@@ -541,10 +541,34 @@ transition: .25s;
   }
 }
 
-#champion{
-
-}
-
 .item-display{
   display: none;
+  transition: .25s;
+}
+
+.move{
+  top: 135px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  height: 120px;
+  width: 120px;
+}
+
+.close{
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  display: none;
+  position: absolute;
+  bottom: 100px;
+  background-color: grey;
+  color: white;
+  z-index: 20;
+  p{
+    font-weight: normal;
+    color: white;
+    text-align: center;
+  }
 }
