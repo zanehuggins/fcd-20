@@ -426,6 +426,9 @@ main {
 .item-8:hover {
   transform: scale(1.25); }
 
+.opacity {
+  opacity: .5; }
+
 /* PORTFOLIO ---------------------------------------- */
 .article-portfolio {
   position: relative;
