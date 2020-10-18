@@ -61,7 +61,7 @@ header {
 
 main {
   position: relative;
-  top: 5vh; }
+  margin-top: 10vw; }
 
 .home {
   height: 80vh; }
@@ -319,6 +319,9 @@ main {
   position: absolute; }
 
 /* PORTFOLIO PAGE */
+.portfolio {
+  height: 101vw; }
+
 .portfolio-item {
   position: absolute;
   border-radius: 100%;
@@ -426,7 +429,8 @@ main {
 /* PORTFOLIO ---------------------------------------- */
 .article-portfolio {
   position: relative;
-  top: 450px; }
+  top: 50vh;
+  height: 100vw; }
   .article-portfolio ul {
     list-style: none; }
 
