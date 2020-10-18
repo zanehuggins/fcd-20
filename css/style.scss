@@ -1,3 +1,13 @@
+/* COLOR PALETTE ---------------------------------------- */
+$graphite: #707071;
+$black: #000000;
+$purple: #6B408E;
+$pink: #EF435E;
+$turqoise: #00AE97;
+
+
+
+/* DEFAULT ---------------------------------------- */
 html,body{
     overflow-x: hidden;
 }
@@ -544,7 +554,8 @@ transition: .25s;
 .article-portfolio{
   position: relative;
   margin-top: 15vw;
-  height: 100vw;
+  min-height: 10vw;
+  padding-bottom: 10vw!important;
   ul{
     list-style: none;
   }
@@ -553,6 +564,19 @@ transition: .25s;
 .item-display{
   display: none;
   transition: .25s;
+  a{
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    height: 40px;
+    padding-top: 7.5px;
+  }
+  .website{
+    background-color: $pink;
+  }
+  .read-more{
+    background-color: $graphite;
+  }
 }
 
 /*
@@ -574,8 +598,6 @@ transition: .25s;
   width: 40vw;
   animation: scale 1s;
   transition: .5s;
-
-
 }
 
 .move:hover{

@@ -1,3 +1,5 @@
+/* COLOR PALETTE ---------------------------------------- */
+/* DEFAULT ---------------------------------------- */
 html, body {
   overflow-x: hidden; }
 
@@ -433,13 +435,24 @@ main {
 .article-portfolio {
   position: relative;
   margin-top: 15vw;
-  height: 100vw; }
+  min-height: 10vw;
+  padding-bottom: 10vw !important; }
   .article-portfolio ul {
     list-style: none; }
 
 .item-display {
   display: none;
   transition: .25s; }
+  .item-display a {
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    height: 40px;
+    padding-top: 7.5px; }
+  .item-display .website {
+    background-color: #EF435E; }
+  .item-display .read-more {
+    background-color: #707071; }
 
 /*
 .move{
