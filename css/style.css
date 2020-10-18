@@ -435,13 +435,13 @@ main {
   transition: .25s; }
 
 .move {
-  top: 135px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  height: 120px;
-  width: 120px; }
+  height: 40vw;
+  width: 40vw;
+  right: 30vw;
+  top: 15vh; }
+
+.move:hover {
+  transform: scale(1); }
 
 .close {
   height: 25px;

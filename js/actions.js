@@ -31,10 +31,12 @@
       }
     }
 
-    function move() {
-      var element = document.getElementById("item-1-icon");
-      element.classList.toggle("move");
-    }
+
+
+function move() {
+  var element = document.getElementById("item-1-icon");
+  element.classList.toggle("move");
+}
 
     function closeIcon() {
       var x = document.getElementById("close");
