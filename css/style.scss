@@ -587,6 +587,7 @@ transition: .5s;
   height: 40vw;
   width: 40vw;
   transition: .5s;
+  z-index: 20;
 }
 
 .move:hover{
@@ -599,6 +600,7 @@ transition: .5s;
   height: 40vw;
   width: 40vw;
   transition: .5s;
+  z-index: 20;
 }
 
 .move2:hover{
@@ -611,6 +613,7 @@ transition: .5s;
   height: 40vw;
   width: 40vw;
   transition: .5s;
+  z-index: 20;
 }
 
 .move3:hover{
@@ -624,6 +627,7 @@ transition: .5s;
   height: 40vw;
   width: 40vw;
   transition: .5s;
+  z-index: 20;
 }
 
 .move4:hover{
@@ -636,6 +640,7 @@ transition: .5s;
   height: 40vw;
   width: 40vw;
   transition: .5s;
+  z-index: 20;
 }
 
 .move5:hover{
@@ -648,6 +653,7 @@ transition: .5s;
   height: 40vw;
   width: 40vw;
   transition: .5s;
+  z-index: 20;
 }
 
 .move6:hover{
@@ -660,6 +666,7 @@ transition: .5s;
   height: 40vw;
   width: 40vw;
   transition: .5s;
+  z-index: 20;
 }
 
 .move7:hover{
@@ -673,6 +680,7 @@ transition: .5s;
   height: 40vw;
   width: 40vw;
   transition: .5s;
+  z-index: 20;
 }
 
 .move8:hover{
@@ -694,4 +702,12 @@ transition: .5s;
     color: white;
     text-align: center;
   }
+}
+
+.cover{
+  z-index: 15;
+height: 100%;
+width: 100%;
+position: absolute;
+
 }

@@ -456,3 +456,8 @@ function toggleDisplay1() {
                                               x.style.display = "block";
                                             }
                                           }
+
+                                          function toggleCover() {
+                                            var element = document.getElementById("cover");
+                                            element.classList.toggle("cover");
+                                          }

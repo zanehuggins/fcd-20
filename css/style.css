@@ -460,7 +460,8 @@ main {
   margin-top: 15vw;
   height: 40vw;
   width: 40vw;
-  transition: .5s; }
+  transition: .5s;
+  z-index: 20; }
 
 .move:hover {
   transform: scale(1); }
@@ -470,7 +471,8 @@ main {
   top: 32.5vw !important;
   height: 40vw;
   width: 40vw;
-  transition: .5s; }
+  transition: .5s;
+  z-index: 20; }
 
 .move2:hover {
   transform: scale(1); }
@@ -480,7 +482,8 @@ main {
   top: 32.5vw !important;
   height: 40vw;
   width: 40vw;
-  transition: .5s; }
+  transition: .5s;
+  z-index: 20; }
 
 .move3:hover {
   transform: scale(1); }
@@ -491,7 +494,8 @@ main {
   top: 32.5vw !important;
   height: 40vw;
   width: 40vw;
-  transition: .5s; }
+  transition: .5s;
+  z-index: 20; }
 
 .move4:hover {
   transform: scale(1); }
@@ -501,7 +505,8 @@ main {
   top: 32.5vw !important;
   height: 40vw;
   width: 40vw;
-  transition: .5s; }
+  transition: .5s;
+  z-index: 20; }
 
 .move5:hover {
   transform: scale(1); }
@@ -511,7 +516,8 @@ main {
   top: 32.5vw !important;
   height: 40vw;
   width: 40vw;
-  transition: .5s; }
+  transition: .5s;
+  z-index: 20; }
 
 .move6:hover {
   transform: scale(1); }
@@ -521,7 +527,8 @@ main {
   margin-top: 15vw;
   height: 40vw;
   width: 40vw;
-  transition: .5s; }
+  transition: .5s;
+  z-index: 20; }
 
 .move7:hover {
   transform: scale(1); }
@@ -532,7 +539,8 @@ main {
   top: 32.5vw !important;
   height: 40vw;
   width: 40vw;
-  transition: .5s; }
+  transition: .5s;
+  z-index: 20; }
 
 .move8:hover {
   transform: scale(1); }
@@ -551,5 +559,11 @@ main {
     font-weight: normal;
     color: white;
     text-align: center; }
+
+.cover {
+  z-index: 15;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
 
 /*# sourceMappingURL=style.css.map */
