@@ -504,11 +504,11 @@ transition: .5s;
 }
 
 .item-6{
-  left: 20px;
-  top: 165px;
+  left: 5vw;
+  top: 45vw;
   height: 50px;
   width: 50px;
-  animation: scale-6 1s;
+  animation: scale-2 1s;
   transition: .5s;
 }
 
@@ -517,11 +517,11 @@ transition: .5s;
 }
 
 .item-7{
-  left: 70px;
-  top: 70px;
+  left: 18vw;
+  top: 17vw;
   height: 40px;
   width: 40px;
-  animation: scale-7 1s;
+  animation: scale 1s;
   transition: .5s;
 }
 
@@ -534,10 +534,10 @@ transition: .5s;
   left: 0;
   display: block;
   margin: 0 auto;
-  top: 2vh;
+  top: 5vw;
   height: 50px;
   width: 50px;
-  animation: scale-8 1s;
+  animation: scale-4 1s;
   transition: .25s;
 }
 
@@ -639,6 +639,43 @@ transition: .5s;
 }
 
 .move5:hover{
+  transform: scale(1);
+}
+
+.move6{
+  left: 30vw;
+  top: 32.5vw!important;
+  height: 40vw;
+  width: 40vw;
+  transition: .5s;
+}
+
+.move6:hover{
+  transform: scale(1);
+}
+
+.move7{
+  left: 30vw;
+  margin-top: 15vw;
+  height: 40vw;
+  width: 40vw;
+  transition: .5s;
+}
+
+.move7:hover{
+  transform: scale(1);
+}
+
+.move8{
+  left: 0;
+  right: 0;
+  top: 32.5vw!important;
+  height: 40vw;
+  width: 40vw;
+  transition: .5s;
+}
+
+.move8:hover{
   transform: scale(1);
 }
 

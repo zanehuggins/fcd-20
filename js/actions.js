@@ -245,7 +245,7 @@ function toggleDisplay1() {
                         }
                       }
 
-                      function toggleOpacity4() {
+                      function toggleOpacity5() {
                         var element = document.getElementById("item-1-icon");
                         element.classList.toggle("opacity");
 
@@ -257,7 +257,7 @@ function toggleDisplay1() {
                             element.classList.toggle("opacity");
 
 
-                          var element = document.getElementById("item-5-icon");
+                          var element = document.getElementById("item-4-icon");
                           element.classList.toggle("opacity");
 
 
@@ -287,3 +287,172 @@ function toggleDisplay1() {
                             x.style.display = "block";
                           }
                         }
+
+
+
+
+
+                        // Item 6 Functions
+                            function toggleDisplay6() {
+                              var x = document.getElementById("item-6");
+                              if (x.style.display === "block") {
+                                x.style.display = "none";
+                              } else {
+                                x.style.display = "block";
+                              }
+                            }
+
+                            function toggleOpacity6() {
+                              var element = document.getElementById("item-1-icon");
+                              element.classList.toggle("opacity");
+
+                              var element = document.getElementById("item-2-icon");
+                              element.classList.toggle("opacity");
+
+
+                                  var element = document.getElementById("item-3-icon");
+                                  element.classList.toggle("opacity");
+
+
+                                var element = document.getElementById("item-4-icon");
+                                element.classList.toggle("opacity");
+
+
+                              var element = document.getElementById("item-5-icon");
+                              element.classList.toggle("opacity");
+
+
+                              var element = document.getElementById("item-7-icon");
+                              element.classList.toggle("opacity");
+
+
+                              var element = document.getElementById("item-8-icon");
+                              element.classList.toggle("opacity");
+                              }
+
+
+                              function move6() {
+                                var element = document.getElementById("item-6-icon");
+                                element.classList.toggle("move6");
+                              }
+
+                              function closeIcon6() {
+                                var x = document.getElementById("close6");
+                                if (x.style.display === "block") {
+                                  x.style.display = "none";
+                                } else {
+                                  x.style.display = "block";
+                                }
+                              }
+
+
+
+
+                              // Item 7 Functions
+                                  function toggleDisplay7() {
+                                    var x = document.getElementById("item-7");
+                                    if (x.style.display === "block") {
+                                      x.style.display = "none";
+                                    } else {
+                                      x.style.display = "block";
+                                    }
+                                  }
+
+                                  function toggleOpacity7() {
+                                    var element = document.getElementById("item-1-icon");
+                                    element.classList.toggle("opacity");
+
+                                    var element = document.getElementById("item-2-icon");
+                                    element.classList.toggle("opacity");
+
+
+                                        var element = document.getElementById("item-3-icon");
+                                        element.classList.toggle("opacity");
+
+
+                                      var element = document.getElementById("item-4-icon");
+                                      element.classList.toggle("opacity");
+
+
+                                    var element = document.getElementById("item-5-icon");
+                                    element.classList.toggle("opacity");
+
+
+                                    var element = document.getElementById("item-6-icon");
+                                    element.classList.toggle("opacity");
+
+
+                                    var element = document.getElementById("item-8-icon");
+                                    element.classList.toggle("opacity");
+                                    }
+
+
+                                    function move7() {
+                                      var element = document.getElementById("item-7-icon");
+                                      element.classList.toggle("move7");
+                                    }
+
+                                    function closeIcon7() {
+                                      var x = document.getElementById("close7");
+                                      if (x.style.display === "block") {
+                                        x.style.display = "none";
+                                      } else {
+                                        x.style.display = "block";
+                                      }
+                                    }
+
+
+
+
+                                    // Item 8 Functions
+                                        function toggleDisplay8() {
+                                          var x = document.getElementById("item-8");
+                                          if (x.style.display === "block") {
+                                            x.style.display = "none";
+                                          } else {
+                                            x.style.display = "block";
+                                          }
+                                        }
+
+                                        function toggleOpacity8() {
+                                          var element = document.getElementById("item-1-icon");
+                                          element.classList.toggle("opacity");
+
+                                          var element = document.getElementById("item-2-icon");
+                                          element.classList.toggle("opacity");
+
+
+                                              var element = document.getElementById("item-3-icon");
+                                              element.classList.toggle("opacity");
+
+
+                                            var element = document.getElementById("item-4-icon");
+                                            element.classList.toggle("opacity");
+
+
+                                          var element = document.getElementById("item-5-icon");
+                                          element.classList.toggle("opacity");
+
+
+                                          var element = document.getElementById("item-6-icon");
+                                          element.classList.toggle("opacity");
+
+
+                                          var element = document.getElementById("item-7-icon");
+                                          element.classList.toggle("opacity");
+                                          }
+
+
+                                          function move8() {
+                                            var element = document.getElementById("item-8-icon");
+                                            element.classList.toggle("move8");
+                                          }
+
+                                          function closeIcon8() {
+                                            var x = document.getElementById("close8");
+                                            if (x.style.display === "block") {
+                                              x.style.display = "none";
+                                            } else {
+                                              x.style.display = "block";
+                                            }
+                                          }
