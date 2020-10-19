@@ -728,8 +728,8 @@ position: absolute;
   .circle-1{
     border-radius: 100%;
     border: 1px solid rgba(128, 128, 128, .2);
-    width: 85vw;
-    height: 85vw;
+    width: 80vw;
+    height: 80vw;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -742,8 +742,8 @@ position: absolute;
   .circle-2{
     border-radius: 100%;
     border: 1px solid rgba(128, 128, 128, .4);
-    width: 75vw;
-    height: 75vw;
+    width: 70vw;
+    height: 70vw;
     position: absolute;
     top: 5vw;
     bottom: 0;
@@ -756,8 +756,8 @@ position: absolute;
   .circle-3{
     border-radius: 100%;
     border: 1px solid rgba(128, 128, 128, .6);
-    width: 65vw;
-    height: 65vw;
+    width: 60vw;
+    height: 60vw;
     position: absolute;
     top: 10vw;
     bottom: 0;
@@ -770,8 +770,8 @@ position: absolute;
   .circle-4{
     border-radius: 100%;
     border: 1px solid rgba(128, 128, 128, .8);
-    width: 55vw;
-    height: 55vw;
+    width: 50vw;
+    height: 50vw;
     position: absolute;
     top: 15vw;
     bottom: 0;
@@ -784,8 +784,8 @@ position: absolute;
   .circle-5{
     border-radius: 100%;
     border: 1px solid rgba(128, 128, 128, 1);
-    width: 45vw;
-    height: 45vw;
+    width: 40vw;
+    height: 40vw;
     position: absolute;
     top: 20vw;
     bottom: 0;
@@ -795,19 +795,9 @@ position: absolute;
     transition: .25s;
   }
 
-  .circle-6{
-    border-radius: 100%;
-    width: 35vw;
-    height: 35vw;
-    position: absolute;
-    top: 25vw;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    transition: .25s;
-    z-index: -1;
-  }
+
+
+
 
 
   /* PORTFOLIO ---------------------------------------- */
@@ -844,7 +834,7 @@ position: absolute;
 
   .item-3{
     right: 21vw;
-    top: 63vw;
+    top: 58vw;
     height: 10vw;
     width: 10vw;
     animation: scale 1s;
@@ -860,7 +850,7 @@ position: absolute;
     left: 0;
     display: block;
     margin: 0 auto;
-    top: 72vw;
+    top: 67vw;
     height: 13vw;
     width: 13vw;
     animation: scale-4 1s;
@@ -873,7 +863,7 @@ position: absolute;
 
   .item-5{
     left: 21vw;
-    top: 63vw;
+    top: 58vw;
     height: 10vw;
     width: 10vw;
     animation: scale 1s;
@@ -916,8 +906,8 @@ position: absolute;
     display: block;
     margin: 0 auto;
     top: 0vw;
-    height: 16vw;
-    width: 16vw;
+    height: 13vw;
+    width: 13vw;
     animation: scale-4 1s;
     transition: .25s;
   }
@@ -967,7 +957,7 @@ position: absolute;
 
   .move{
     right: 35vw;
-    margin-top: 15.5vw;
+    margin-top: 13vw;
     height: 30vw;
     width: 30vw;
     transition: .5s;
@@ -980,7 +970,7 @@ position: absolute;
 
   .move2{
     right: 35vw;
-    top: 27vw!important;
+    top: 25vw!important;
     height: 30vw;
     width: 30vw;
     transition: .5s;
@@ -993,7 +983,7 @@ position: absolute;
 
   .move3{
     right: 35vw;
-    top: 27vw!important;
+    top: 25vw!important;
     height: 30vw;
     width: 30vw;
     transition: .5s;
@@ -1007,7 +997,7 @@ position: absolute;
   .move4{
     left: 0;
     right: 0;
-    top: 27vw!important;
+    top: 25vw!important;
     height: 30vw;
     width: 30vw;
     transition: .5s;
@@ -1020,7 +1010,7 @@ position: absolute;
 
   .move5{
     left: 35vw;
-    top: 27vw!important;
+    top: 25vw!important;
     height: 30vw;
     width: 30vw;
     transition: .5s;
@@ -1033,7 +1023,7 @@ position: absolute;
 
   .move6{
     left: 35vw;
-    top: 27vw!important;
+    top: 25vw!important;
     height: 30vw;
     width: 30vw;
     transition: .5s;
@@ -1046,7 +1036,7 @@ position: absolute;
 
   .move7{
     left: 35vw;
-    top: 10.5vw!important;
+    top: 10vw!important;
     height: 30vw;
     width: 30vw;
     transition: .5s;
@@ -1060,7 +1050,7 @@ position: absolute;
   .move8{
     left: 0;
     right: 0;
-    top: 27vw!important;
+    top: 25vw!important;
     height: 30vw;
     width: 30vw;
     transition: .5s;
