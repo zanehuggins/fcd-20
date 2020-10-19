@@ -63,13 +63,11 @@ transition: .25s;
 
 .tagline{
   position: absolute;
-  margin: 0 auto;
-  display: block;
-  top: 35%;;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 30%;
+  top: 42.5vw;
+
+  height: auto;
+  width: 35vw;
+  left: 32.5vw;
 }
 
 header{
@@ -438,8 +436,8 @@ h3{
 .item-1{
   right: 18vw;
   top: 17vw;
-  height: 40px;
-  width: 40px;
+  height: 13vw;
+  width: 13vw;
   animation: scale 1s;
   transition: .5s;
 }
@@ -451,8 +449,8 @@ h3{
 .item-2{
 right: 5vw;
 top: 45vw;
-height: 50px;
-width: 50px;
+height: 16vw;
+width: 16vw;
 animation: scale-2 1s;
 transition: .5s;
 }
@@ -464,8 +462,8 @@ transition: .5s;
 .item-3{
   right: 18vw;
   top: 75vw;
-  height: 40px;
-  width: 40px;
+  height: 13vw;
+  width: 13vw;
   animation: scale 1s;
   transition: .5s;
 }
@@ -479,9 +477,9 @@ transition: .5s;
   left: 0;
   display: block;
   margin: 0 auto;
-  top: 87.5vw;
-  height: 50px;
-  width: 50px;
+  top: 84vw;
+  height: 16vw;
+  width: 16vw;
   animation: scale-4 1s;
   transition: .25s;
 }
@@ -493,8 +491,8 @@ transition: .5s;
 .item-5{
   left: 18vw;
   top: 75vw;
-  height: 40px;
-  width: 40px;
+  height: 13vw;
+  width: 13vw;
   animation: scale 1s;
   transition: .5s;
 }
@@ -506,8 +504,8 @@ transition: .5s;
 .item-6{
   left: 5vw;
   top: 45vw;
-  height: 50px;
-  width: 50px;
+  height: 16vw;
+  width: 16vw;
   animation: scale-2 1s;
   transition: .5s;
 }
@@ -519,8 +517,8 @@ transition: .5s;
 .item-7{
   left: 18vw;
   top: 17vw;
-  height: 40px;
-  width: 40px;
+  height: 13vw;
+  width: 13vw;
   animation: scale 1s;
   transition: .5s;
 }
@@ -535,8 +533,8 @@ transition: .5s;
   display: block;
   margin: 0 auto;
   top: 5vw;
-  height: 50px;
-  width: 50px;
+  height: 16vw;
+  width: 16vw;
   animation: scale-4 1s;
   transition: .25s;
 }
@@ -570,6 +568,9 @@ transition: .5s;
     border: 1px solid white;
     height: 40px;
     padding-top: 7.5px;
+  }
+  a:hover{
+    text-decoration: none;
   }
   .website{
     background-color: $pink;
@@ -709,5 +710,10 @@ transition: .5s;
 height: 100%;
 width: 100%;
 position: absolute;
+
+}
+
+
+@media (min-width: 768px) {
 
 }
