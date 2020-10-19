@@ -462,12 +462,12 @@ transition: .5s;
 }
 
 .item-3{
-right: 70px;
-top: 280px;
-height: 40px;
-width: 40px;
-animation: scale-3 1s;
-transition: .25s;
+  right: 18vw;
+  top: 75vw;
+  height: 40px;
+  width: 40px;
+  animation: scale 1s;
+  transition: .5s;
 }
 
 .item-3:hover{
@@ -479,7 +479,7 @@ transition: .25s;
   left: 0;
   display: block;
   margin: 0 auto;
-  top: 320px;
+  top: 87.5vw;
   height: 50px;
   width: 50px;
   animation: scale-4 1s;
@@ -491,12 +491,12 @@ transition: .25s;
 }
 
 .item-5{
-  left: 70px;
-  top: 280px;
+  left: 18vw;
+  top: 75vw;
   height: 40px;
   width: 40px;
-  animation: scale-3 1s;
-  transition: .25s;
+  animation: scale 1s;
+  transition: .5s;
 }
 
 .item-5:hover{
@@ -579,28 +579,66 @@ transition: .25s;
   }
 }
 
-/*
-.move{
-  height: 140px;
-  width: 140px;
-  right: 0;
-  top: 135px;
-  bottom: 0;
-  left: 0;
-  margin: 0 auto;
-}
-*/
+/* MOVE ACTIONS JS */
 
 .move{
   right: 30vw;
   margin-top: 15vw;
   height: 40vw;
   width: 40vw;
-  animation: scale 1s;
   transition: .5s;
 }
 
 .move:hover{
+  transform: scale(1);
+}
+
+.move2{
+  right: 30vw;
+  top: 32.5vw!important;
+  height: 40vw;
+  width: 40vw;
+  transition: .5s;
+}
+
+.move2:hover{
+  transform: scale(1);
+}
+
+.move3{
+  right: 30vw;
+  top: 32.5vw!important;
+  height: 40vw;
+  width: 40vw;
+  transition: .5s;
+}
+
+.move3:hover{
+  transform: scale(1);
+}
+
+.move4{
+  left: 0;
+  right: 0;
+  top: 32.5vw!important;
+  height: 40vw;
+  width: 40vw;
+  transition: .5s;
+}
+
+.move4:hover{
+  transform: scale(1);
+}
+
+.move5{
+  left: 30vw;
+  top: 32.5vw!important;
+  height: 40vw;
+  width: 40vw;
+  transition: .5s;
+}
+
+.move5:hover{
   transform: scale(1);
 }
 
