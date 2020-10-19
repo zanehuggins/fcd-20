@@ -135,7 +135,7 @@ main {
   width: 45vw;
   height: 45vw;
   position: absolute;
-  top: 120px;
+  top: 30vw;
   bottom: 0;
   left: 0;
   right: 0;
@@ -428,7 +428,6 @@ main {
 .opacity {
   opacity: .5; }
 
-/* PORTFOLIO ---------------------------------------- */
 .article-portfolio {
   position: relative;
   margin-top: 15vw;
@@ -564,5 +563,328 @@ main {
   height: 100%;
   width: 100%;
   position: absolute; }
+
+@media (min-width: 768px) {
+  main {
+    position: relative;
+    margin-top: 5vw; }
+
+  .tagline {
+    top: 35vw;
+    width: 25vw;
+    left: 37.5vw; }
+
+  .circle-1 {
+    border-radius: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    width: 85vw;
+    height: 85vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: .25s; }
+
+  .circle-2 {
+    border-radius: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    width: 75vw;
+    height: 75vw;
+    position: absolute;
+    top: 5vw;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: .25s; }
+
+  .circle-3 {
+    border-radius: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.6);
+    width: 65vw;
+    height: 65vw;
+    position: absolute;
+    top: 10vw;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: .25s; }
+
+  .circle-4 {
+    border-radius: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.8);
+    width: 55vw;
+    height: 55vw;
+    position: absolute;
+    top: 15vw;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: .25s; }
+
+  .circle-5 {
+    border-radius: 100%;
+    border: 1px solid gray;
+    width: 45vw;
+    height: 45vw;
+    position: absolute;
+    top: 20vw;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: .25s; }
+
+  .circle-6 {
+    border-radius: 100%;
+    width: 35vw;
+    height: 35vw;
+    position: absolute;
+    top: 25vw;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: .25s;
+    z-index: -1; }
+
+  /* PORTFOLIO ---------------------------------------- */
+  .portfolio {
+    height: 85vw; }
+
+  .item-1 {
+    right: 21vw;
+    top: 12vw;
+    height: 10vw;
+    width: 10vw;
+    animation: scale 1s;
+    transition: .5s; }
+
+  .item-1:hover {
+    transform: scale(1.25); }
+
+  .item-2 {
+    right: 10vw;
+    top: 35vw;
+    height: 13vw;
+    width: 13vw;
+    animation: scale-2 1s;
+    transition: .5s; }
+
+  .item-2:hover {
+    transform: scale(1.25); }
+
+  .item-3 {
+    right: 21vw;
+    top: 63vw;
+    height: 10vw;
+    width: 10vw;
+    animation: scale 1s;
+    transition: .5s; }
+
+  .item-3:hover {
+    transform: scale(1.25); }
+
+  .item-4 {
+    right: 0;
+    left: 0;
+    display: block;
+    margin: 0 auto;
+    top: 72vw;
+    height: 13vw;
+    width: 13vw;
+    animation: scale-4 1s;
+    transition: .25s; }
+
+  .item-4:hover {
+    transform: scale(1.25); }
+
+  .item-5 {
+    left: 21vw;
+    top: 63vw;
+    height: 10vw;
+    width: 10vw;
+    animation: scale 1s;
+    transition: .5s; }
+
+  .item-5:hover {
+    transform: scale(1.25); }
+
+  .item-6 {
+    left: 10vw;
+    top: 35vw;
+    height: 13vw;
+    width: 13vw;
+    animation: scale-2 1s;
+    transition: .5s; }
+
+  .item-6:hover {
+    transform: scale(1.25); }
+
+  .item-7 {
+    left: 21vw;
+    top: 12vw;
+    height: 10vw;
+    width: 10vw;
+    animation: scale 1s;
+    transition: .5s; }
+
+  .item-7:hover {
+    transform: scale(1.25); }
+
+  .item-8 {
+    right: 0;
+    left: 0;
+    display: block;
+    margin: 0 auto;
+    top: 0vw;
+    height: 16vw;
+    width: 16vw;
+    animation: scale-4 1s;
+    transition: .25s; }
+
+  .item-8:hover {
+    transform: scale(1.25); }
+
+  .opacity {
+    opacity: .5; }
+
+  .article-portfolio {
+    position: relative;
+    margin-top: 15vw;
+    min-height: 10vw;
+    padding-bottom: 10vw !important; }
+    .article-portfolio ul {
+      list-style: none; }
+
+  .item-display {
+    display: none;
+    transition: .25s; }
+    .item-display a {
+      color: white;
+      text-align: center;
+      border: 1px solid white;
+      height: 40px;
+      padding-top: 7.5px; }
+    .item-display a:hover {
+      text-decoration: none; }
+    .item-display .website {
+      background-color: #EF435E; }
+    .item-display .read-more {
+      background-color: #707071; }
+
+  /* MOVE ACTIONS JS */
+  .move {
+    right: 35vw;
+    margin-top: 15.5vw;
+    height: 30vw;
+    width: 30vw;
+    transition: .5s;
+    z-index: 20; }
+
+  .move:hover {
+    transform: scale(1); }
+
+  .move2 {
+    right: 35vw;
+    top: 27vw !important;
+    height: 30vw;
+    width: 30vw;
+    transition: .5s;
+    z-index: 20; }
+
+  .move2:hover {
+    transform: scale(1); }
+
+  .move3 {
+    right: 35vw;
+    top: 27vw !important;
+    height: 30vw;
+    width: 30vw;
+    transition: .5s;
+    z-index: 20; }
+
+  .move3:hover {
+    transform: scale(1); }
+
+  .move4 {
+    left: 0;
+    right: 0;
+    top: 27vw !important;
+    height: 30vw;
+    width: 30vw;
+    transition: .5s;
+    z-index: 20; }
+
+  .move4:hover {
+    transform: scale(1); }
+
+  .move5 {
+    left: 35vw;
+    top: 27vw !important;
+    height: 30vw;
+    width: 30vw;
+    transition: .5s;
+    z-index: 20; }
+
+  .move5:hover {
+    transform: scale(1); }
+
+  .move6 {
+    left: 35vw;
+    top: 27vw !important;
+    height: 30vw;
+    width: 30vw;
+    transition: .5s;
+    z-index: 20; }
+
+  .move6:hover {
+    transform: scale(1); }
+
+  .move7 {
+    left: 35vw;
+    top: 10.5vw !important;
+    height: 30vw;
+    width: 30vw;
+    transition: .5s;
+    z-index: 20; }
+
+  .move7:hover {
+    transform: scale(1); }
+
+  .move8 {
+    left: 0;
+    right: 0;
+    top: 27vw !important;
+    height: 30vw;
+    width: 30vw;
+    transition: .5s;
+    z-index: 20; }
+
+  .move8:hover {
+    transform: scale(1); }
+
+  .close {
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    display: none;
+    position: absolute;
+    bottom: 75%;
+    background-color: grey;
+    color: white;
+    z-index: 20; }
+    .close p {
+      font-weight: normal;
+      color: white;
+      text-align: center; }
+
+  .article-portfolio {
+    margin-top: 5vw; } }
+/* CLOSES 768PX MEDIA QUERY */
 
 /*# sourceMappingURL=style.css.map */
