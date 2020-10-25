@@ -461,3 +461,44 @@ function toggleDisplay1() {
                                             var element = document.getElementById("cover");
                                             element.classList.toggle("cover");
                                           }
+
+
+                                          function toggleCover1() {
+                                            var element = document.getElementById("cover-1");
+                                            element.classList.toggle("cover-1");
+                                          }
+
+                                          function toggleCover2() {
+                                            var element = document.getElementById("cover-2");
+                                            element.classList.toggle("cover-2");
+                                          }
+
+                                          function toggleCover3() {
+                                            var element = document.getElementById("cover-3");
+                                            element.classList.toggle("cover-3");
+                                          }
+
+                                          function toggleCover4() {
+                                            var element = document.getElementById("cover-4");
+                                            element.classList.toggle("cover-4");
+                                          }
+
+                                          function toggleCover5() {
+                                            var element = document.getElementById("cover-5");
+                                            element.classList.toggle("cover-5");
+                                          }
+
+                                          function toggleCover6() {
+                                            var element = document.getElementById("cover-6");
+                                            element.classList.toggle("cover-6");
+                                          }
+
+                                          function toggleCover7() {
+                                            var element = document.getElementById("cover-7");
+                                            element.classList.toggle("cover-7");
+                                          }
+
+                                          function toggleCover8() {
+                                            var element = document.getElementById("cover-8");
+                                            element.classList.toggle("cover-8");
+                                          }

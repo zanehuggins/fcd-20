@@ -564,6 +564,54 @@ main {
   width: 100%;
   position: absolute; }
 
+.cover-1 {
+  z-index: 16;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
+
+.cover-2 {
+  z-index: 16;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
+
+.cover-3 {
+  z-index: 16;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
+
+.cover-4 {
+  z-index: 16;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
+
+.cover-5 {
+  z-index: 16;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
+
+.cover-6 {
+  z-index: 16;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
+
+.cover-7 {
+  z-index: 16;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
+
+.cover-8 {
+  z-index: 16;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
+
 @media (min-width: 768px) {
   main {
     position: relative;
