@@ -685,9 +685,11 @@ main {
   .blog-posts li {
     padding-bottom: 25px !important; }
   .blog-posts a {
-    color: black; }
+    color: black;
+    transition: .25s; }
   .blog-posts a:hover {
-    text-decoration: none; }
+    text-decoration: none;
+    opacity: .5; }
 
 .blog-post-image {
   border-radius: 100%;
