@@ -848,8 +848,10 @@ position: absolute;
 
 
 .blog-posts-container{
-  h2{
-padding-bottom: 25px;
+  h3{
+padding-bottom: 10px;
+padding-top: 10px;
+border-top: 2px solid $purple;
   }
 
 li{

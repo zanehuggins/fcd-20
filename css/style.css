@@ -670,8 +670,10 @@ main {
     text-decoration: none; }
 
 /* BLOG ---------------------------------------- */
-.blog-posts-container h2 {
-  padding-bottom: 25px; }
+.blog-posts-container h3 {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-top: 2px solid #6B408E; }
 .blog-posts-container li {
   padding-top: 25px !important;
   padding-bottom: 25px !important;
