@@ -664,13 +664,13 @@ main {
     text-decoration: none; }
 
 /* BLOG ---------------------------------------- */
-.featured-posts h2 {
+.blog-posts-container h2 {
   padding-bottom: 25px; }
-.featured-posts li {
+.blog-posts-container li {
   padding-top: 25px !important;
   padding-bottom: 25px !important;
   border-top: 1px solid lightgrey; }
-.featured-posts h2 {
+.blog-posts-container h2 {
   padding: none;
   margin: 0; }
 
@@ -703,6 +703,8 @@ main {
   .blog-post-info p {
     margin-top: 5px;
     margin-bottom: 0; }
+  .blog-post-info .description {
+    font-size: 14px; }
 
 @media (min-width: 768px) {
   main {

@@ -839,7 +839,7 @@ position: absolute;
 /* BLOG ---------------------------------------- */
 
 
-.featured-posts{
+.blog-posts-container{
   h2{
 padding-bottom: 25px;
   }
@@ -870,6 +870,7 @@ h2{
   }
 }
 
+
 .blog-post-image{
   border-radius: 100%;
   background-color: #F2F2F2;
@@ -893,6 +894,9 @@ max-width: 100px!important;
   p{
     margin-top: 5px;
     margin-bottom: 0;
+  }
+  .description{
+    font-size: 14px;
   }
 }
 
