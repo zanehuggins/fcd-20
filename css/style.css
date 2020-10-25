@@ -614,24 +614,48 @@ main {
 
 .branding-container {
   border-top: 1px solid #6B408E;
-  padding-top: 25px;
-  padding-bottom: 25px; }
+  padding-top: 50px;
+  padding-bottom: 50px; }
   .branding-container h2 {
     color: #6B408E; }
+  .branding-container a {
+    color: #6B408E;
+    transition: .25s; }
+    .branding-container a img {
+      padding-left: 15px; }
+  .branding-container a:hover {
+    opacity: .5;
+    text-decoration: none; }
 
 .web-container {
   border-top: 1px solid #EF435E;
-  padding-top: 25px;
-  padding-bottom: 25px; }
+  padding-top: 50px;
+  padding-bottom: 50px; }
   .web-container h2 {
     color: #EF435E; }
+  .web-container a {
+    color: #EF435E;
+    transition: .25s; }
+    .web-container a img {
+      padding-left: 15px; }
+  .web-container a:hover {
+    opacity: .5;
+    text-decoration: none; }
 
 .social-media-container {
   border-top: 1px solid #00AE97;
-  padding-top: 25px;
-  padding-bottom: 25px; }
+  padding-top: 50px;
+  padding-bottom: 50px; }
   .social-media-container h2 {
     color: #00AE97; }
+  .social-media-container a {
+    color: #00AE97;
+    transition: .25s; }
+    .social-media-container a img {
+      padding-left: 15px; }
+  .social-media-container a:hover {
+    opacity: .5;
+    text-decoration: none; }
 
 @media (min-width: 768px) {
   main {

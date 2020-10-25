@@ -772,28 +772,61 @@ position: absolute;
 
 .branding-container{
   border-top: 1px solid $purple;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   h2{
     color: $purple;
+  }
+  a{
+    color: $purple;
+    transition: .25s;
+    img{
+      padding-left: 15px;
+    }
+  }
+  a:hover{
+    opacity: .5;
+    text-decoration: none;
   }
 }
 
 .web-container{
   border-top: 1px solid $pink;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   h2{
     color: $pink;
+  }
+  a{
+    color: $pink;
+    transition: .25s;
+    img{
+      padding-left: 15px;
+    }
+  }
+  a:hover{
+    opacity: .5;
+    text-decoration: none;
   }
 }
 
 .social-media-container{
   border-top: 1px solid $turqoise;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   h2{
     color: $turqoise;
+  }
+  a{
+    color: $turqoise;
+    transition: .25s;
+    img{
+      padding-left: 15px;
+    }
+  }
+  a:hover{
+    opacity: .5;
+    text-decoration: none;
   }
 }
 
