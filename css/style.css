@@ -3,6 +3,12 @@
 html, body {
   overflow-x: hidden; }
 
+h1 {
+  font-size: 30px; }
+
+h2 {
+  font-size: 24px; }
+
 h3 {
   font-size: 18px; }
 
@@ -656,6 +662,47 @@ main {
   .social-media-container a:hover {
     opacity: .5;
     text-decoration: none; }
+
+/* BLOG ---------------------------------------- */
+.featured-posts h2 {
+  padding-bottom: 25px; }
+.featured-posts li {
+  padding-top: 25px !important;
+  padding-bottom: 25px !important;
+  border-top: 1px solid lightgrey; }
+.featured-posts h2 {
+  padding: none;
+  margin: 0; }
+
+.blog-posts {
+  list-style: none; }
+  .blog-posts li {
+    padding-bottom: 25px !important; }
+  .blog-posts a {
+    color: black; }
+  .blog-posts a:hover {
+    text-decoration: none; }
+
+.blog-post-image {
+  border-radius: 100%;
+  background-color: #F2F2F2;
+  box-shadow: 0 0 3px grey;
+  width: 20%;
+  max-height: 100px !important;
+  max-width: 100px !important; }
+  .blog-post-image img {
+    height: 80%;
+    width: 80%;
+    max-height: 80px !important;
+    max-width: 80px !important;
+    margin: 10%; }
+
+.blog-post-info {
+  width: 80%;
+  padding-left: 25px; }
+  .blog-post-info p {
+    margin-top: 5px;
+    margin-bottom: 0; }
 
 @media (min-width: 768px) {
   main {
