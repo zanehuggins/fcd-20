@@ -612,6 +612,27 @@ main {
   width: 100%;
   position: absolute; }
 
+.branding-container {
+  border-top: 1px solid #6B408E;
+  padding-top: 25px;
+  padding-bottom: 25px; }
+  .branding-container h2 {
+    color: #6B408E; }
+
+.web-container {
+  border-top: 1px solid #EF435E;
+  padding-top: 25px;
+  padding-bottom: 25px; }
+  .web-container h2 {
+    color: #EF435E; }
+
+.social-media-container {
+  border-top: 1px solid #00AE97;
+  padding-top: 25px;
+  padding-bottom: 25px; }
+  .social-media-container h2 {
+    color: #00AE97; }
+
 @media (min-width: 768px) {
   main {
     position: relative;

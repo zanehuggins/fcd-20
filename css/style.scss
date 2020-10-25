@@ -769,6 +769,36 @@ width: 100%;
 position: absolute;
 }
 
+
+.branding-container{
+  border-top: 1px solid $purple;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  h2{
+    color: $purple;
+  }
+}
+
+.web-container{
+  border-top: 1px solid $pink;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  h2{
+    color: $pink;
+  }
+}
+
+.social-media-container{
+  border-top: 1px solid $turqoise;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  h2{
+    color: $turqoise;
+  }
+}
+
+
+
 @media (min-width: 768px) {
   main{
     position: relative;
