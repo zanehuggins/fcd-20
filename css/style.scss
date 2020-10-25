@@ -21,7 +21,15 @@ font-size: 24px;
 }
 
 h3{
+  font-size: 16px;
+}
+
+h4{
   font-size: 18px;
+}
+
+#active{
+  font-weight: bold;
 }
 
 @-moz-document url-prefix() {
@@ -551,7 +559,7 @@ transition: .5s;
 
 .article-portfolio{
   position: relative;
-  margin-top: 15vw;
+  margin-top: 5vw;
   min-height: 10vw;
   padding-bottom: 10vw!important;
   ul{
