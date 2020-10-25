@@ -714,6 +714,12 @@ main {
   .blog-post-info .description {
     font-size: 14px; }
 
+/* SHOP ---------------------------------------- */
+#heroes {
+  width: 95%;
+  height: 95%;
+  margin: 2.5%; }
+
 @media (min-width: 768px) {
   main {
     position: relative;
