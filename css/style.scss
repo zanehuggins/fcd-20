@@ -951,7 +951,7 @@ max-width: 100px!important;
 @media (min-width: 768px) {
   main{
     position: relative;
-  margin-top: 5vw;
+  margin-top: 70px;
   }
 
 .tagline{
@@ -1361,10 +1361,11 @@ a:hover{
       font-size: 12px;
     }
   }
-}
+
 
 .blog-posts-container h3{
   border-top: 0;
   border-bottom: 1px solid $purple;
   padding-top: 0;
+}
 }

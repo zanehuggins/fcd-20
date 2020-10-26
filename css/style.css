@@ -750,7 +750,7 @@ main {
 @media (min-width: 768px) {
   main {
     position: relative;
-    margin-top: 5vw; }
+    margin-top: 70px; }
 
   .tagline {
     top: 35vw;
@@ -1085,8 +1085,7 @@ main {
   border: none; }
   .blog-posts li p {
     font-size: 12px; }
-
-.blog-posts-container h3 {
+.blog-posts .blog-posts-container h3 {
   border-top: 0;
   border-bottom: 1px solid #6B408E;
   padding-top: 0; }
