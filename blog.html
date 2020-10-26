@@ -16,15 +16,16 @@
   <div class="container-fluid p-0">
     <header class="col-12 float-left">
       <div class="col-10 p-0 float-left">
-<a href="index.html" class="col-6 col-md-3 float-left"><img src="images/logos/logotype-horizontal.svg" alt="Full Circle Design Logo/link to home" class="col-12 p-0"></a>
+<a href="index.html" class="col-6 col-md-3 col-lg-2 float-left"><img src="images/logos/logotype-horizontal.svg" alt="Full Circle Design Logo/link to home" class="col-12 p-0"></a>
 </div>
 
 <div class="col-2 float-left p-0">
-<a href="#" onclick="toggleDisplay(); animate();" class="toggle-nav"><img src="images/components/menu.svg" alt="menu indicator"></a>
+<a href="#" onclick="toggleDisplay(); animate();" class="toggle-nav d-lg-none"><img src="images/components/menu.svg" alt="menu indicator"></a>
 </div>
+
     </header>
 
-<div class="navigation col-12 float-left p-0" id="navigation">
+<div class="navigation col-12 float-left p-0 d-lg-none" id="navigation">
   <ul class="col-12 float-left">
     <li><a href="index.html">HOME</a></li>
     <li><a href="services.html">SERVICES</a></li>
@@ -38,7 +39,20 @@
 
 
 
-<main class="col-12 float-left">
+<ul class="desktop-nav d-none d-lg-block float-left">
+  <li><a href="contact.html">CONTACT</a></li>
+  <li><a href="shop.html">SHOP</a></li>
+  <li><a href="blog.html" id="active-desktop">BLOG</a></li>
+  <li><a href="portfolio.html">PORTFOLIO</a></li>
+  <li><a href="services.html">SERVICES</a></li>
+  <li><a href="index.html">HOME</a></li>
+</ul>
+
+
+
+
+
+<main class="col-12 col-lg-10 offset-lg-1 float-left">
 
 <div class="blog-posts-container col-12 float-left p-0">
   <h3 class="col-12 float-left">FEATURED POSTS</h3>
@@ -48,36 +62,36 @@
 
 <!-- POST -->
 
-    <li class="col-12 col-md-10 offset-md-1 float-left p-0"><a href="#">
+    <li class="col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-0 float-left p-0"><a href="#">
       <div class="blog-post-image float-left"><img src="images/blog/rolling-hills.svg" alt="Rolling Hills Rolled Ice Cream Logo"></div>
       <div class="blog-post-info float-left">
 <h4>Rolling Hills Rolled Ice Cream</h4>
 <p>OCTOBER 25, 2020</p>
-<p class="description">Follow the process of designing the logo for Rolling Hills Rolled Ice Cream, a start-up from Morgantown, WV.</p>
+<p class="description">Follow the design process for Rolling Hills Rolled Ice Cream's logo.</p>
       </div>
     </a>
     </li>
 
 <!-- POST -->
 
-    <li class="col-12 col-md-10 offset-md-1 float-left p-0"><a href="#">
+    <li class="col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-0 float-left p-0"><a href="#">
       <div class="blog-post-image float-left"><img src="images/blog/rolling-hills.svg" alt="Rolling Hills Rolled Ice Cream Logo"></div>
       <div class="blog-post-info float-left">
 <h4>Rolling Hills Rolled Ice Cream</h4>
 <p>OCTOBER 25, 2020</p>
-<p class="description">Follow the process of designing the logo for Rolling Hills Rolled Ice Cream, a start-up from Morgantown, WV.</p>
+<p class="description">Follow the process of designing the logo for Rolling Hills Rolled Ice Cream.</p>
       </div>
     </a>
     </li>
 
     <!-- POST -->
 
-        <li class="col-12 col-md-10 offset-md-1 float-left p-0"><a href="#">
+        <li class="col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-0 float-left p-0"><a href="#">
           <div class="blog-post-image float-left"><img src="images/blog/rolling-hills.svg" alt="Rolling Hills Rolled Ice Cream Logo"></div>
           <div class="blog-post-info float-left">
     <h4>Rolling Hills Rolled Ice Cream</h4>
     <p>OCTOBER 25, 2020</p>
-    <p class="description">Follow the process of designing the logo for Rolling Hills Rolled Ice Cream, a start-up from Morgantown, WV.</p>
+    <p class="description">Follow the process of designing the logo for Rolling Hills Rolled Ice Cream.</p>
           </div>
         </a>
         </li>
@@ -95,7 +109,7 @@
 
   <!-- POST -->
 
-      <li class="col-12 col-md-10 offset-md-1 float-left p-0"><a href="#">
+      <li class="col-12 col-md-10 col-lg-6 offset-md-1 offset-lg-0 float-left p-0"><a href="#">
         <div class="blog-post-image float-left"><img src="images/blog/rolling-hills.svg" alt="Rolling Hills Rolled Ice Cream Logo"></div>
         <div class="blog-post-info float-left">
   <h4>Rolling Hills Rolled Ice Cream</h4>
@@ -107,7 +121,7 @@
 
   <!-- POST -->
 
-      <li class="col-12 col-md-10 offset-md-1 float-left p-0"><a href="#">
+      <li class="col-12 col-md-10 col-lg-6 offset-md-1 offset-lg-0 float-left p-0"><a href="#">
         <div class="blog-post-image float-left"><img src="images/blog/rolling-hills.svg" alt="Rolling Hills Rolled Ice Cream Logo"></div>
         <div class="blog-post-info float-left">
   <h4>Rolling Hills Rolled Ice Cream</h4>
@@ -119,7 +133,7 @@
 
       <!-- POST -->
 
-          <li class="col-12 col-md-10 offset-md-1 float-left p-0"><a href="#">
+          <li class="col-12 col-md-10 col-lg-6 offset-md-1 offset-lg-0 float-left p-0"><a href="#">
             <div class="blog-post-image float-left"><img src="images/blog/rolling-hills.svg" alt="Rolling Hills Rolled Ice Cream Logo"></div>
             <div class="blog-post-info float-left">
       <h4>Rolling Hills Rolled Ice Cream</h4>

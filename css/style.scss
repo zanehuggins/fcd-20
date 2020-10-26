@@ -1323,7 +1323,7 @@ max-width: 100px!important;
     position: fixed;
     list-style: none;
     transform: rotate(-90deg);
-    top: 375px;
+    top: 385px;
     left: -245px;
     z-index: 200;
 li{
@@ -1346,4 +1346,25 @@ a:hover{
   opacity: .5;
 }
   }
+}
+
+.branding-container{
+  border-top: none;
+  padding-top: 0;
+  padding-bottom: 50px;
+}
+
+.blog-posts{
+  li{
+    border: none;
+    p{
+      font-size: 12px;
+    }
+  }
+}
+
+.blog-posts-container h3{
+  border-top: 0;
+  border-bottom: 1px solid $purple;
+  padding-top: 0;
 }
