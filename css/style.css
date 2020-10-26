@@ -690,8 +690,9 @@ main {
     opacity: .5;
     text-decoration: none; }
 
-.modal {
-  border-radius: 0px !important; }
+.modal-content {
+  border-radius: 0px !important;
+  border: none !important; }
 
 /* BLOG ---------------------------------------- */
 .blog-posts-container h3 {
