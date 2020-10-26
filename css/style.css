@@ -1056,5 +1056,25 @@ main {
   .article-portfolio {
     margin-top: 25px; } }
 /* CLOSES 768PX MEDIA QUERY */
+@media (min-width: 992px) {
+  .desktop-nav {
+    position: fixed;
+    list-style: none;
+    transform: rotate(-90deg);
+    top: 375px;
+    left: -245px;
+    z-index: 200; }
+    .desktop-nav li {
+      float: left;
+      padding-right: 25px; }
+    .desktop-nav #active-desktop {
+      border-top: 10px solid #EF435E;
+      padding-top: 10px; }
+    .desktop-nav a {
+      color: black;
+      transition: .25s; }
+    .desktop-nav a:hover {
+      text-decoration: none;
+      opacity: .5; } }
 
 /*# sourceMappingURL=style.css.map */
