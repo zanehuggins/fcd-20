@@ -1061,7 +1061,7 @@ main {
     position: fixed;
     list-style: none;
     transform: rotate(-90deg);
-    top: 385px;
+    top: 375px;
     left: -245px;
     z-index: 200; }
     .desktop-nav li {
@@ -1075,19 +1075,294 @@ main {
       transition: .25s; }
     .desktop-nav a:hover {
       text-decoration: none;
-      opacity: .5; } }
-.branding-container {
-  border-top: none;
-  padding-top: 0;
-  padding-bottom: 50px; }
+      opacity: .5; }
 
-.blog-posts li {
-  border: none; }
-  .blog-posts li p {
-    font-size: 12px; }
-.blog-posts .blog-posts-container h3 {
-  border-top: 0;
-  border-bottom: 1px solid #6B408E;
-  padding-top: 0; }
+  .branding-container {
+    border-top: none;
+    padding-top: 0;
+    padding-bottom: 50px; }
+
+  .blog-posts li {
+    border: none; }
+    .blog-posts li p {
+      font-size: 12px; }
+
+  .blog-posts-container h3 {
+    border-top: 0;
+    border-bottom: 1px solid #6B408E;
+    padding-top: 0; }
+
+  /* CIRCLES ******************************************/
+  .circle-1 {
+    border-radius: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    width: 40vw;
+    height: 40vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: .25s; }
+
+  .circle-2 {
+    border-radius: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    width: 35vw;
+    height: 35vw;
+    position: absolute;
+    top: 2.5vw;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: .25s; }
+
+  .circle-3 {
+    border-radius: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.6);
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+    top: 5vw;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: .25s; }
+
+  .circle-4 {
+    border-radius: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.8);
+    width: 25vw;
+    height: 25vw;
+    position: absolute;
+    top: 7.5vw;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: .25s; }
+
+  .circle-5 {
+    border-radius: 100%;
+    border: 1px solid gray;
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+    top: 10vw;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: .25s; }
+
+  /* PORTFOLIO ---------------------------------------- */
+  main {
+    margin-top: 0; }
+
+  .branding-container {
+    margin-top: 5vw; }
+
+  .portfolio {
+    height: 80vw; }
+
+  .item-1 {
+    right: 21vw;
+    top: 12vw;
+    height: 10vw;
+    width: 10vw;
+    animation: scale 1s;
+    transition: .5s; }
+
+  .item-1:hover {
+    transform: scale(1.25); }
+
+  .item-2 {
+    right: 10vw;
+    top: 35vw;
+    height: 13vw;
+    width: 13vw;
+    animation: scale-2 1s;
+    transition: .5s; }
+
+  .item-2:hover {
+    transform: scale(1.25); }
+
+  .item-3 {
+    right: 21vw;
+    top: 58vw;
+    height: 10vw;
+    width: 10vw;
+    animation: scale 1s;
+    transition: .5s; }
+
+  .item-3:hover {
+    transform: scale(1.25); }
+
+  .item-4 {
+    right: 0;
+    left: 0;
+    display: block;
+    margin: 0 auto;
+    top: 67vw;
+    height: 13vw;
+    width: 13vw;
+    animation: scale-4 1s;
+    transition: .25s; }
+
+  .item-4:hover {
+    transform: scale(1.25); }
+
+  .item-5 {
+    left: 21vw;
+    top: 58vw;
+    height: 10vw;
+    width: 10vw;
+    animation: scale 1s;
+    transition: .5s; }
+
+  .item-5:hover {
+    transform: scale(1.25); }
+
+  .item-6 {
+    left: 10vw;
+    top: 35vw;
+    height: 13vw;
+    width: 13vw;
+    animation: scale-2 1s;
+    transition: .5s; }
+
+  .item-6:hover {
+    transform: scale(1.25); }
+
+  .item-7 {
+    left: 21vw;
+    top: 12vw;
+    height: 10vw;
+    width: 10vw;
+    animation: scale 1s;
+    transition: .5s; }
+
+  .item-7:hover {
+    transform: scale(1.25); }
+
+  .item-8 {
+    right: 0;
+    left: 0;
+    display: block;
+    margin: 0 auto;
+    top: 0vw;
+    height: 13vw;
+    width: 13vw;
+    animation: scale-4 1s;
+    transition: .25s; }
+
+  .item-8:hover {
+    transform: scale(1.25); }
+
+  .branding {
+    background-color: #6B408E;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 100%;
+    top: 25vw;
+    left: 30vw;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    transition: .25s;
+    animation: scale 1s; }
+    .branding h3 {
+      margin-top: 40%; }
+
+  .branding:hover {
+    color: white;
+    text-decoration: none; }
+
+  .branding:hover {
+    color: white;
+    text-decoration: none;
+    height: 12vw;
+    width: 12vw;
+    left: 29vw;
+    top: 24vw; }
+
+  .web {
+    background-color: #EF435E;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 100%;
+    top: 32vw;
+    left: 45vw;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    transition: .25s;
+    animation: scale-2 1s; }
+    .web h3 {
+      margin-top: 40%; }
+
+  .web:hover {
+    color: white;
+    text-decoration: none;
+    height: 12vw;
+    width: 12vw;
+    top: 31vw;
+    left: 44vw; }
+
+  .social-media {
+    background-color: #00AE97;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 100%;
+    top: 25vw;
+    right: 29vw;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    transition: .25s;
+    animation: scale-3 1s; }
+    .social-media h3 {
+      margin-top: 35%; }
+
+  .social-media:hover {
+    color: white;
+    text-decoration: none;
+    height: 12vw;
+    width: 12vw;
+    right: 28vw;
+    top: 44.5vh; }
+
+  .tagline {
+    position: absolute;
+    top: 16.5vw;
+    height: auto;
+    width: 15vw;
+    left: 42.5vw; }
+
+  .article-home {
+    margin-top: 150px; }
+
+  .map-container {
+    overflow: hidden;
+    padding-top: 10px !important;
+    position: relative;
+    height: 350px;
+    margin-top: 0px; }
+
+  .map {
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    box-shadow: 0 -2px 10px lightgrey;
+    width: 100vw;
+    bottom: -100px;
+    left: 0vw;
+    position: absolute; } }
+/* CLOSE 992PX */
 
 /*# sourceMappingURL=style.css.map */
