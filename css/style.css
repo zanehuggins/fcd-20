@@ -1077,6 +1077,9 @@ main {
       text-decoration: none;
       opacity: .5; }
 
+  main {
+    margin-top: 2.5vw !important; }
+
   .branding-container {
     border-top: none;
     padding-top: 0;
@@ -1159,9 +1162,6 @@ main {
     transition: .25s; }
 
   /* PORTFOLIO ---------------------------------------- */
-  main {
-    margin-top: 0; }
-
   .branding-container {
     margin-top: 5vw; }
 
