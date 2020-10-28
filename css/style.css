@@ -1056,7 +1056,7 @@ main {
   .article-portfolio {
     margin-top: 25px; } }
 /* CLOSES 768PX MEDIA QUERY */
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .desktop-nav {
     position: fixed;
     list-style: none;
@@ -1169,10 +1169,10 @@ main {
     height: 80vw; }
 
   .item-1 {
-    right: 21vw;
-    top: 12vw;
-    height: 10vw;
-    width: 10vw;
+    right: 35vw !important;
+    top: 7vw !important;
+    height: 5vw !important;
+    width: 5vw !important;
     animation: scale 1s;
     transition: .5s; }
 
@@ -1180,10 +1180,10 @@ main {
     transform: scale(1.25); }
 
   .item-2 {
-    right: 10vw;
-    top: 35vw;
-    height: 13vw;
-    width: 13vw;
+    right: 30vw !important;
+    top: 17vw !important;
+    height: 6vw !important;
+    width: 6vw !important;
     animation: scale-2 1s;
     transition: .5s; }
 
@@ -1191,10 +1191,10 @@ main {
     transform: scale(1.25); }
 
   .item-3 {
-    right: 21vw;
-    top: 58vw;
-    height: 10vw;
-    width: 10vw;
+    right: 35vw !important;
+    top: 27.5vw !important;
+    height: 5vw !important;
+    width: 5vw !important;
     animation: scale 1s;
     transition: .5s; }
 
@@ -1206,9 +1206,9 @@ main {
     left: 0;
     display: block;
     margin: 0 auto;
-    top: 67vw;
-    height: 13vw;
-    width: 13vw;
+    top: 34vw !important;
+    height: 6vw !important;
+    width: 6vw !important;
     animation: scale-4 1s;
     transition: .25s; }
 
@@ -1216,10 +1216,10 @@ main {
     transform: scale(1.25); }
 
   .item-5 {
-    left: 21vw;
-    top: 58vw;
-    height: 10vw;
-    width: 10vw;
+    left: 35vw !important;
+    top: 27.5vw !important;
+    height: 5vw !important;
+    width: 5vw !important;
     animation: scale 1s;
     transition: .5s; }
 
@@ -1227,10 +1227,10 @@ main {
     transform: scale(1.25); }
 
   .item-6 {
-    left: 10vw;
-    top: 35vw;
-    height: 13vw;
-    width: 13vw;
+    left: 30vw !important;
+    top: 17vw !important;
+    height: 6vw !important;
+    width: 6vw !important;
     animation: scale-2 1s;
     transition: .5s; }
 
@@ -1238,10 +1238,10 @@ main {
     transform: scale(1.25); }
 
   .item-7 {
-    left: 21vw;
-    top: 12vw;
-    height: 10vw;
-    width: 10vw;
+    left: 35vw !important;
+    top: 7vw !important;
+    height: 5vw !important;
+    width: 5vw !important;
     animation: scale 1s;
     transition: .5s; }
 
@@ -1254,8 +1254,8 @@ main {
     display: block;
     margin: 0 auto;
     top: 0vw;
-    height: 13vw;
-    width: 13vw;
+    height: 6vw !important;
+    width: 6vw !important;
     animation: scale-4 1s;
     transition: .25s; }
 
