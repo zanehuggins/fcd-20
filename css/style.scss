@@ -201,6 +201,7 @@ margin-top: 10vw;
   right: 0;
   margin: 0 auto;
   transition: .25s;
+  z-index: 1;
 }
 
 .circle-6{
@@ -214,7 +215,6 @@ margin-top: 10vw;
   right: 0;
   margin: 0 auto;
   transition: .25s;
-  z-index: -1;
 }
 
 .hover:hover{
@@ -1457,11 +1457,7 @@ a:hover{
 
 
 
-
-
-
 /* PORTFOLIO ---------------------------------------- */
-
 
 .branding-container{
   margin-top: 5vw;
@@ -1817,6 +1813,13 @@ h3{
 .move8:hover{
   transform: scale(1);
 }
+
+/* BLOG ***********************************/
+
+.blog{
+  margin-top: 55px!important;
+}
+
 } /* CLOSE 1024PX */
 
 

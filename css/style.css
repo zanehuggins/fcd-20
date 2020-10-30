@@ -161,7 +161,8 @@ main {
   left: 0;
   right: 0;
   margin: 0 auto;
-  transition: .25s; }
+  transition: .25s;
+  z-index: 1; }
 
 .circle-6 {
   border-radius: 100%;
@@ -173,8 +174,7 @@ main {
   left: 0;
   right: 0;
   margin: 0 auto;
-  transition: .25s;
-  z-index: -1; }
+  transition: .25s; }
 
 .hover:hover {
   border: 1px solid #EF435E; }
@@ -1456,7 +1456,11 @@ main {
     z-index: 20; }
 
   .move8:hover {
-    transform: scale(1); } }
+    transform: scale(1); }
+
+  /* BLOG ***********************************/
+  .blog {
+    margin-top: 55px !important; } }
 /* CLOSE 1024PX */
 @media (min-width: 1200px) {
   main {
