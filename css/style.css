@@ -746,6 +746,19 @@ main {
   height: 95%;
   margin: 2.5%; }
 
+/* CONTACT ---------------------------------------- */
+.email {
+  padding-left: 0;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px; }
+
+.phone {
+  padding-right: 0;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 20px; }
+
 @media (min-width: 768px) {
   main {
     position: relative;
