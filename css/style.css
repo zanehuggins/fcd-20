@@ -1052,8 +1052,11 @@ main {
       color: white;
       text-align: center; }
 
+  .portfolio {
+    min-height: 400px !important; }
+
   .article-portfolio {
-    margin-top: 25px; } }
+    margin-top: 0px !important; } }
 /* CLOSES 768PX MEDIA QUERY */
 @media (min-width: 1024px) {
   .desktop-nav {
@@ -1167,7 +1170,7 @@ main {
   .portfolio {
     height: 60vh !important;
     overflow: hidden;
-    min-height: 500px; }
+    min-height: 600px; }
 
   .item-1 {
     right: 35vw !important;

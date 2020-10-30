@@ -1316,8 +1316,12 @@ transition: .5s;
     }
   }
 
+  .portfolio{
+    min-height: 400px!important;
+  }
+
 .article-portfolio{
-  margin-top: 25px;
+  margin-top: 0px!important;
 }
 
 } /* CLOSES 768PX MEDIA QUERY */
@@ -1469,7 +1473,7 @@ a:hover{
 .portfolio{
 height: 60vh!important;
 overflow: hidden;
-min-height: 500px;
+min-height: 600px;
 }
 
 
