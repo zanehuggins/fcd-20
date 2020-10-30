@@ -464,7 +464,6 @@ main {
 .article-portfolio {
   position: relative;
   margin-top: 5vw;
-  min-height: 10vw;
   padding-bottom: 10vw !important; }
   .article-portfolio ul {
     list-style: none; }
@@ -1099,8 +1098,8 @@ main {
   .circle-1 {
     border-radius: 100%;
     border: 1px solid rgba(128, 128, 128, 0.2);
-    width: 50vw;
-    height: 50vw;
+    width: 40vw;
+    height: 40vw;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -1112,8 +1111,8 @@ main {
   .circle-2 {
     border-radius: 100%;
     border: 1px solid rgba(128, 128, 128, 0.4);
-    width: 45vw;
-    height: 45vw;
+    width: 35vw;
+    height: 35vw;
     position: absolute;
     top: 2.5vw;
     bottom: 0;
@@ -1125,8 +1124,8 @@ main {
   .circle-3 {
     border-radius: 100%;
     border: 1px solid rgba(128, 128, 128, 0.6);
-    width: 40vw;
-    height: 40vw;
+    width: 30vw;
+    height: 30vw;
     position: absolute;
     top: 5vw;
     bottom: 0;
@@ -1138,8 +1137,8 @@ main {
   .circle-4 {
     border-radius: 100%;
     border: 1px solid rgba(128, 128, 128, 0.8);
-    width: 35vw;
-    height: 35vw;
+    width: 25vw;
+    height: 25vw;
     position: absolute;
     top: 7.5vw;
     bottom: 0;
@@ -1151,8 +1150,8 @@ main {
   .circle-5 {
     border-radius: 100%;
     border: 1px solid gray;
-    width: 30vw;
-    height: 30vw;
+    width: 20vw;
+    height: 20vw;
     position: absolute;
     top: 10vw;
     bottom: 0;
@@ -1166,13 +1165,14 @@ main {
     margin-top: 5vw; }
 
   .portfolio {
-    height: 60vh; }
+    height: 60vh !important;
+    overflow: hidden; }
 
   .item-1 {
-    right: 32vw !important;
-    top: 7.5vw !important;
-    height: 7vw !important;
-    width: 7vw !important;
+    right: 35vw !important;
+    top: 7vw !important;
+    height: 5vw !important;
+    width: 5vw !important;
     animation: scale 1s;
     transition: .5s; }
 
@@ -1180,10 +1180,10 @@ main {
     transform: scale(1.25); }
 
   .item-2 {
-    right: 26vw !important;
-    top: 20vw !important;
-    height: 8vw !important;
-    width: 8vw !important;
+    right: 30vw !important;
+    top: 17vw !important;
+    height: 6vw !important;
+    width: 6vw !important;
     animation: scale-2 1s;
     transition: .5s; }
 
@@ -1191,10 +1191,10 @@ main {
     transform: scale(1.25); }
 
   .item-3 {
-    right: 32vw !important;
-    top: 35vw !important;
-    height: 7vw !important;
-    width: 7vw !important;
+    right: 35vw !important;
+    top: 27.5vw !important;
+    height: 5vw !important;
+    width: 5vw !important;
     animation: scale 1s;
     transition: .5s; }
 
@@ -1206,9 +1206,9 @@ main {
     left: 0;
     display: block;
     margin: 0 auto;
-    top: 41vw !important;
-    height: 8vw !important;
-    width: 8vw !important;
+    top: 34vw !important;
+    height: 6vw !important;
+    width: 6vw !important;
     animation: scale-4 1s;
     transition: .25s; }
 
@@ -1216,10 +1216,10 @@ main {
     transform: scale(1.25); }
 
   .item-5 {
-    left: 32vw !important;
-    top: 35vw !important;
-    height: 7vw !important;
-    width: 7vw !important;
+    left: 35vw !important;
+    top: 27.5vw !important;
+    height: 5vw !important;
+    width: 5vw !important;
     animation: scale 1s;
     transition: .5s; }
 
@@ -1227,10 +1227,10 @@ main {
     transform: scale(1.25); }
 
   .item-6 {
-    left: 26vw !important;
-    top: 20vw !important;
-    height: 8vw !important;
-    width: 8vw !important;
+    left: 30vw !important;
+    top: 17vw !important;
+    height: 6vw !important;
+    width: 6vw !important;
     animation: scale-2 1s;
     transition: .5s; }
 
@@ -1238,10 +1238,10 @@ main {
     transform: scale(1.25); }
 
   .item-7 {
-    left: 32vw !important;
-    top: 7.5vw !important;
-    height: 7vw !important;
-    width: 7vw !important;
+    left: 35vw !important;
+    top: 7vw !important;
+    height: 5vw !important;
+    width: 5vw !important;
     animation: scale 1s;
     transition: .5s; }
 
@@ -1254,8 +1254,8 @@ main {
     display: block;
     margin: 0 auto;
     top: 1vw;
-    height: 8vw !important;
-    width: 8vw !important;
+    height: 6vw !important;
+    width: 6vw !important;
     animation: scale-4 1s;
     transition: .25s; }
 
@@ -1267,8 +1267,8 @@ main {
     height: 10vw;
     width: 10vw;
     border-radius: 100%;
-    top: 32vw;
-    left: 29vw;
+    top: 25vw;
+    left: 30vw;
     position: absolute;
     text-align: center;
     font-weight: bold;
@@ -1287,15 +1287,15 @@ main {
     text-decoration: none;
     height: 12vw;
     width: 12vw;
-    left: 28vw;
-    top: 31vw; }
+    left: 29vw;
+    top: 24vw; }
 
   .web {
     background-color: #EF435E;
     height: 10vw;
     width: 10vw;
     border-radius: 100%;
-    top: 40vw;
+    top: 32vw;
     left: 45vw;
     position: absolute;
     text-align: center;
@@ -1311,7 +1311,7 @@ main {
     text-decoration: none;
     height: 12vw;
     width: 12vw;
-    top: 39vw;
+    top: 31vw;
     left: 44vw; }
 
   .social-media {
@@ -1319,7 +1319,7 @@ main {
     height: 10vw;
     width: 10vw;
     border-radius: 100%;
-    top: 32vw;
+    top: 25vw;
     right: 29vw;
     position: absolute;
     text-align: center;
@@ -1336,11 +1336,11 @@ main {
     height: 12vw;
     width: 12vw;
     right: 28vw;
-    top: 31vw; }
+    top: 44.5vh; }
 
   .tagline {
     position: absolute;
-    top: 21vw;
+    top: 16.5vw;
     height: auto;
     width: 15vw;
     left: 42.5vw; }
@@ -1366,10 +1366,10 @@ main {
 
   /* MOVE ACTIONS JS */
   .move {
-    right: 37.5vw !important;
-    margin-top: 5vw !important;
-    height: 25vw !important;
-    width: 25vw !important;
+    right: 42.5vw !important;
+    margin-top: 5.5vw !important;
+    height: 15vw !important;
+    width: 15vw !important;
     transition: .5s;
     z-index: 20; }
 
@@ -1377,10 +1377,10 @@ main {
     transform: scale(1); }
 
   .move2 {
-    right: 37.5vw !important;
-    top: 12.5vw !important;
-    height: 25vw !important;
-    width: 25vw !important;
+    right: 35vw;
+    top: 25vw !important;
+    height: 30vw;
+    width: 30vw;
     transition: .5s;
     z-index: 20; }
 
@@ -1388,10 +1388,10 @@ main {
     transform: scale(1); }
 
   .move3 {
-    right: 37.5vw !important;
-    top: 12.5vw !important;
-    height: 25vw !important;
-    width: 25vw !important;
+    right: 35vw;
+    top: 25vw !important;
+    height: 30vw;
+    width: 30vw;
     transition: .5s;
     z-index: 20; }
 
@@ -1401,9 +1401,9 @@ main {
   .move4 {
     left: 0;
     right: 0;
-    top: 12.5vw !important;
-    height: 25vw !important;
-    width: 25vw !important;
+    top: 25vw !important;
+    height: 30vw;
+    width: 30vw;
     transition: .5s;
     z-index: 20; }
 
@@ -1411,10 +1411,10 @@ main {
     transform: scale(1); }
 
   .move5 {
-    left: 37.5vw !important;
-    top: 12.5vw !important;
-    height: 25vw !important;
-    width: 25vw !important;
+    left: 35vw;
+    top: 25vw !important;
+    height: 30vw;
+    width: 30vw;
     transition: .5s;
     z-index: 20; }
 
@@ -1422,10 +1422,10 @@ main {
     transform: scale(1); }
 
   .move6 {
-    left: 37.5vw !important;
-    top: 12.5vw !important;
-    height: 25vw !important;
-    width: 25vw !important;
+    left: 35vw;
+    top: 25vw !important;
+    height: 30vw;
+    width: 30vw;
     transition: .5s;
     z-index: 20; }
 
@@ -1433,10 +1433,10 @@ main {
     transform: scale(1); }
 
   .move7 {
-    left: 37.5vw !important;
-    top: -2.5vw !important;
-    height: 25vw !important;
-    width: 25vw !important;
+    left: 35vw;
+    top: 10vw !important;
+    height: 30vw;
+    width: 30vw;
     transition: .5s;
     z-index: 20; }
 
@@ -1446,9 +1446,9 @@ main {
   .move8 {
     left: 0;
     right: 0;
-    top: 12.5vw !important;
-    height: 25vw !important;
-    width: 25vw !important;
+    top: 25vw !important;
+    height: 30vw;
+    width: 30vw;
     transition: .5s;
     z-index: 20; }
 
