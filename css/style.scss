@@ -1316,10 +1316,6 @@ transition: .5s;
     }
   }
 
-  .portfolio{
-    min-height: 425px!important;
-  }
-
 .article-portfolio{
   margin-top: 0px!important;
 }
@@ -1338,6 +1334,8 @@ li{
   float: left;
   padding-right: 25px;
 }
+
+
 
 
 #active-desktop{
@@ -1469,15 +1467,17 @@ a:hover{
   margin-top: 5vw;
 }
 
-
-.portfolio{
-height: 60vh!important;
-overflow: hidden;
-min-height: 600px;
+.article-portfolio{
+  h2{
+    font-size: 18px;
+  }
 }
 
 
-
+.portfolio{
+height: 42vw!important;
+overflow: hidden;
+}
 
 .item-1{
   right: 35vw!important;
