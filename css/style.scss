@@ -1464,9 +1464,12 @@ a:hover{
 .branding-container{
   margin-top: 5vw;
 }
+
+
 .portfolio{
 height: 60vh!important;
 overflow: hidden;
+min-height: 500px;
 }
 
 
@@ -1811,3 +1814,17 @@ h3{
   transform: scale(1);
 }
 } /* CLOSE 1024PX */
+
+
+@media (min-width: 1200px){
+
+  main{
+    margin-top: 0!important;
+  }
+  .portfolio{
+  height: 60vh!important;
+  overflow: hidden;
+  min-height: 800px;
+  }
+
+}

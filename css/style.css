@@ -1166,7 +1166,8 @@ main {
 
   .portfolio {
     height: 60vh !important;
-    overflow: hidden; }
+    overflow: hidden;
+    min-height: 500px; }
 
   .item-1 {
     right: 35vw !important;
@@ -1455,5 +1456,13 @@ main {
   .move8:hover {
     transform: scale(1); } }
 /* CLOSE 1024PX */
+@media (min-width: 1200px) {
+  main {
+    margin-top: 0 !important; }
+
+  .portfolio {
+    height: 60vh !important;
+    overflow: hidden;
+    min-height: 800px; } }
 
 /*# sourceMappingURL=style.css.map */
