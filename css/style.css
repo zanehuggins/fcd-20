@@ -1089,7 +1089,7 @@ form {
   .article-portfolio {
     margin-top: 0px !important; } }
 /* CLOSES 768PX MEDIA QUERY */
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
   .desktop-nav {
     position: fixed;
     list-style: none;
@@ -1108,8 +1108,8 @@ form {
       transition: .25s; }
     .desktop-nav a:hover {
       text-decoration: none;
-      opacity: .5; }
-
+      opacity: .5; } }
+@media (min-width: 1024px) {
   main {
     margin-top: 2.5vw !important; }
 
@@ -1374,7 +1374,7 @@ form {
     height: 12vw;
     width: 12vw;
     right: 28vw;
-    top: 44.5vh; }
+    top: 24vw; }
 
   .tagline {
     position: absolute;
