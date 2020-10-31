@@ -771,6 +771,15 @@ form {
   color: #00AE97;
   opacity: .5; }
 
+.contact-list {
+  list-style: none; }
+  .contact-list li a {
+    color: #00AE97;
+    transition: .25s; }
+  .contact-list li a:hover {
+    opacity: .5;
+    text-decoration: none; }
+
 @media (min-width: 768px) {
   main {
     position: relative;
@@ -1495,6 +1504,9 @@ form {
   .portfolio {
     height: 60vh !important;
     overflow: hidden;
-    min-height: 800px; } }
+    min-height: 800px; }
+
+  form {
+    margin-top: 60px; } }
 
 /*# sourceMappingURL=style.css.map */

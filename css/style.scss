@@ -201,7 +201,6 @@ margin-top: 10vw;
   right: 0;
   margin: 0 auto;
   transition: .25s;
-
 }
 
 .circle-6{
@@ -976,6 +975,20 @@ padding-bottom: 20px;
   text-decoration: none;
   color: $turqoise;
   opacity: .5;
+}
+
+.contact-list{
+  list-style: none;
+  li{
+    a{
+color: $turqoise;
+transition: .25s;
+}
+a:hover{
+  opacity: .5;
+  text-decoration: none;
+}
+  }
 }
 
 
@@ -1864,6 +1877,10 @@ h3{
   height: 60vh!important;
   overflow: hidden;
   min-height: 800px;
+  }
+
+  form{
+    margin-top: 60px;
   }
 
 }
