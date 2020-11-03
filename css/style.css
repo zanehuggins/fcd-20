@@ -739,6 +739,9 @@ main {
   .blog-post-info .description {
     font-size: 14px; }
 
+.blog {
+  margin-top: 25px; }
+
 /* SHOP ---------------------------------------- */
 #heroes {
   width: 95%;
@@ -779,6 +782,11 @@ form {
   .contact-list li a:hover {
     opacity: .5;
     text-decoration: none; }
+
+.paragraph-container {
+  text-align: justify; }
+  .paragraph-container h4 {
+    margin-top: 10px; }
 
 @media (min-width: 768px) {
   main {
@@ -1217,8 +1225,8 @@ form {
     transform: scale(1.25); }
 
   .item-2 {
-    right: 30vw !important;
-    top: 17vw !important;
+    right: 32.5vw !important;
+    top: 15vw !important;
     height: 6vw !important;
     width: 6vw !important;
     animation: scale-2 1s;
@@ -1426,7 +1434,7 @@ form {
     transform: scale(1); }
 
   .move3 {
-    right: 42.5vw;
+    right: 42.5vw !important;
     top: 12.5vw !important;
     height: 15vw !important;
     width: 15vw !important;
@@ -1502,9 +1510,368 @@ form {
     margin-top: 0 !important; }
 
   .portfolio {
-    height: 60vh !important;
+    height: 40vh !important;
     overflow: hidden;
-    min-height: 800px; }
+    min-height: 525px; }
+
+  /* PORTFOLIO ---------------------------------------- */
+  .item-1 {
+    right: 38vw !important;
+    top: 5.5vw !important;
+    height: 5vw !important;
+    width: 5vw !important;
+    animation: scale 1s;
+    transition: .5s; }
+
+  .item-1:hover {
+    transform: scale(1.25); }
+
+  .item-2 {
+    right: 33.5vw !important;
+    top: 14vw !important;
+    height: 6vw !important;
+    width: 6vw !important;
+    animation: scale-2 1s;
+    transition: .5s; }
+
+  .item-2:hover {
+    transform: scale(1.25); }
+
+  .item-3 {
+    right: 37vw !important;
+    top: 24vw !important;
+    height: 5vw !important;
+    width: 5vw !important;
+    animation: scale 1s;
+    transition: .5s; }
+
+  .item-3:hover {
+    transform: scale(1.25); }
+
+  .item-4 {
+    right: 0;
+    left: 0;
+    display: block;
+    margin: 0 auto;
+    top: 28vw !important;
+    height: 6vw !important;
+    width: 6vw !important;
+    animation: scale-4 1s;
+    transition: .25s; }
+
+  .item-4:hover {
+    transform: scale(1.25); }
+
+  .item-5 {
+    left: 37vw !important;
+    top: 24vw !important;
+    height: 5vw !important;
+    width: 5vw !important;
+    animation: scale 1s;
+    transition: .5s; }
+
+  .item-5:hover {
+    transform: scale(1.25); }
+
+  .item-6 {
+    left: 33.5vw !important;
+    top: 14vw !important;
+    height: 6vw !important;
+    width: 6vw !important;
+    animation: scale-2 1s;
+    transition: .5s; }
+
+  .item-6:hover {
+    transform: scale(1.25); }
+
+  .item-7 {
+    left: 38vw !important;
+    top: 5.5vw !important;
+    height: 5vw !important;
+    width: 5vw !important;
+    animation: scale 1s;
+    transition: .5s; }
+
+  .item-7:hover {
+    transform: scale(1.25); }
+
+  .item-8 {
+    right: 0;
+    left: 0;
+    display: block;
+    margin: 0 auto;
+    top: 1vw;
+    height: 6vw !important;
+    width: 6vw !important;
+    animation: scale-4 1s;
+    transition: .25s; }
+
+  .item-8:hover {
+    transform: scale(1.25); }
+
+  .branding {
+    background-color: #6B408E;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 100%;
+    top: 25vw;
+    left: 30vw;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    transition: .25s;
+    animation: scale 1s;
+    z-index: 2; }
+    .branding h3 {
+      margin-top: 40%; }
+
+  .branding:hover {
+    color: white;
+    text-decoration: none; }
+
+  .branding:hover {
+    color: white;
+    text-decoration: none;
+    height: 12vw;
+    width: 12vw;
+    left: 29vw;
+    top: 24vw; }
+
+  .web {
+    background-color: #EF435E;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 100%;
+    top: 32vw;
+    left: 45vw;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    transition: .25s;
+    animation: scale-2 1s; }
+    .web h3 {
+      margin-top: 40%; }
+
+  .web:hover {
+    color: white;
+    text-decoration: none;
+    height: 12vw;
+    width: 12vw;
+    top: 31vw;
+    left: 44vw; }
+
+  .social-media {
+    background-color: #00AE97;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 100%;
+    top: 25vw;
+    right: 29vw;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    transition: .25s;
+    animation: scale-3 1s; }
+    .social-media h3 {
+      margin-top: 35%; }
+
+  .social-media:hover {
+    color: white;
+    text-decoration: none;
+    height: 12vw;
+    width: 12vw;
+    right: 28vw;
+    top: 24vw; }
+
+  .tagline {
+    position: absolute;
+    top: 16.5vw;
+    height: auto;
+    width: 15vw;
+    left: 42.5vw; }
+
+  .article-home {
+    margin-top: 150px; }
+
+  .map-container {
+    overflow: hidden;
+    padding-top: 10px !important;
+    position: relative;
+    height: 350px;
+    margin-top: 0px; }
+
+  .map {
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    box-shadow: 0 -2px 10px lightgrey;
+    width: 100vw;
+    bottom: -100px;
+    left: 0vw;
+    position: absolute; }
+
+  /* MOVE ACTIONS JS */
+  .move {
+    right: 43.75vw !important;
+    margin-top: 5.75vw !important;
+    height: 12.5vw !important;
+    width: 12.5vw !important;
+    transition: .5s;
+    z-index: 20; }
+
+  .move:hover {
+    transform: scale(1); }
+
+  .move2 {
+    right: 43.75vw !important;
+    top: 11.25vw !important;
+    height: 12.5vw !important;
+    width: 12.5vw !important;
+    transition: .5s;
+    z-index: 20; }
+
+  .move2:hover {
+    transform: scale(1); }
+
+  .move3 {
+    right: 43.75vw !important;
+    top: 11.25vw !important;
+    height: 12.5vw !important;
+    width: 12.5vw !important;
+    transition: .5s;
+    z-index: 20; }
+
+  .move3:hover {
+    transform: scale(1); }
+
+  .move4 {
+    left: 0;
+    right: 0;
+    top: 11.25vw !important;
+    height: 12.5vw !important;
+    width: 12.5vw !important;
+    transition: .5s;
+    z-index: 20; }
+
+  .move4:hover {
+    transform: scale(1); }
+
+  .move5 {
+    left: 43.75vw !important;
+    top: 11.25vw !important;
+    height: 12.5vw !important;
+    width: 12.5vw !important;
+    transition: .5s;
+    z-index: 20; }
+
+  .move5:hover {
+    transform: scale(1); }
+
+  .move6 {
+    left: 43.75vw !important;
+    top: 11.25vw !important;
+    height: 12.5vw !important;
+    width: 12.5vw !important;
+    transition: .5s;
+    z-index: 20; }
+
+  .move6:hover {
+    transform: scale(1); }
+
+  .move7 {
+    left: 43.75vw !important;
+    top: -3.75vw !important;
+    height: 12.5vw !important;
+    width: 12.5vw !important;
+    transition: .5s;
+    z-index: 20; }
+
+  .move7:hover {
+    transform: scale(1); }
+
+  .move8 {
+    left: 0;
+    right: 0;
+    top: 11.25vw !important;
+    height: 12.5vw !important;
+    width: 12.5vw !important;
+    transition: .5s;
+    z-index: 20; }
+
+  .move8:hover {
+    transform: scale(1); }
+
+  .circle-1 {
+    border-radius: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    width: 35vw;
+    height: 35vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: .25s; }
+
+  .circle-2 {
+    border-radius: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+    top: 2.5vw;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: .25s; }
+
+  .circle-3 {
+    border-radius: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.6);
+    width: 25vw;
+    height: 25vw;
+    position: absolute;
+    top: 5vw;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: .25s; }
+
+  .circle-4 {
+    border-radius: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.8);
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+    top: 7.5vw;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: .25s; }
+
+  .circle-5 {
+    border-radius: 100%;
+    border: 1px solid gray;
+    width: 15vw;
+    height: 15vw;
+    position: absolute;
+    top: 10vw;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: .25s; }
+
+  .tagline {
+    top: 14.5vw !important;
+    width: 12.5vw;
+    left: 43.75vw; }
 
   form {
     margin-top: 60px; } }
