@@ -749,9 +749,6 @@ main {
   margin: 2.5%; }
 
 /* CONTACT ---------------------------------------- */
-form {
-  margin-top: 25px; }
-
 .email {
   padding-left: 0;
   padding-top: 20px;
@@ -787,6 +784,9 @@ form {
   text-align: justify; }
   .paragraph-container h4 {
     margin-top: 10px; }
+
+form {
+  margin-top: 50px !important; }
 
 @media (min-width: 768px) {
   main {
@@ -1874,6 +1874,6 @@ form {
     left: 43.75vw; }
 
   form {
-    margin-top: 60px; } }
+    margin-top: 0px !important; } }
 
 /*# sourceMappingURL=style.css.map */

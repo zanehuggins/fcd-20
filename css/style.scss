@@ -952,9 +952,7 @@ max-width: 100px!important;
 }
 
 /* CONTACT ---------------------------------------- */
-form{
-  margin-top: 25px;
-}
+
 .email{
   padding-left: 0;
   padding-top: 20px;
@@ -1000,6 +998,10 @@ a:hover{
   h4{
     margin-top: 10px;
   }
+}
+
+form{
+margin-top: 50px!important;
 }
 
 
@@ -2318,7 +2320,6 @@ h3{
   }
 
   form{
-    margin-top: 60px;
+  margin-top: 0px!important;
   }
-
 }
