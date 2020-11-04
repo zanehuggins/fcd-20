@@ -69,10 +69,14 @@ li{
   }
   a{
     width: 30px;
-      margin-right: 20px!important;
+      margin-left: 20px!important;
+      transition: .25s;
     img{
       width: 30px;
     }
+  }
+  a:hover{
+    opacity: .5;
   }
 }
 

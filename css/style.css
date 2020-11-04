@@ -47,9 +47,12 @@ li {
   margin-top: -40px !important; }
   .social-media-list a {
     width: 30px;
-    margin-right: 20px !important; }
+    margin-left: 20px !important;
+    transition: .25s; }
     .social-media-list a img {
       width: 30px; }
+  .social-media-list a:hover {
+    opacity: .5; }
 
 .navigation {
   display: none;
