@@ -42,6 +42,15 @@ li {
 @-moz-document url-prefix() {
   .navigation {
     background-color: rgba(255, 255, 255, 0.85); } }
+.social-media-list {
+  list-style: none;
+  margin-top: -40px !important; }
+  .social-media-list a {
+    width: 30px;
+    margin-right: 20px !important; }
+    .social-media-list a img {
+      width: 30px; }
+
 .navigation {
   display: none;
   backdrop-filter: blur(8px);

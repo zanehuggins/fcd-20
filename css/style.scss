@@ -61,6 +61,21 @@ li{
     }
 }
 
+.social-media-list{
+  list-style: none;
+  margin-top: -40px!important;
+  li{
+
+  }
+  a{
+    width: 30px;
+      margin-right: 20px!important;
+    img{
+      width: 30px;
+    }
+  }
+}
+
 .navigation{
   display: none;
   backdrop-filter: blur(8px);
