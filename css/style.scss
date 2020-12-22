@@ -326,6 +326,24 @@ h3{
   top: 44.5vh;
 }
 
+footer{
+     margin-top: 75px!important;
+  ul{
+    list-style: none;
+    li{
+      float: left;
+      a{
+        color: $pink;
+        transition: .25s;
+      }
+      a:hover{
+        text-decoration: none;
+        color: $purple;
+      }
+    }
+  }
+}
+
 /* ANIMATIONS ---------------------------------------- */
 
 @keyframes scale {
@@ -449,20 +467,17 @@ h3{
          .map-container{
            overflow: hidden;
            padding-top: 10px!important;
-           position: relative;
-           height: 310px;
-           margin-top: 75px;
+
+           padding: 0;
+           margin-bottom: 0;
 
          }
+
          .map{
-           border-top-left-radius: 100%;
-           border-top-right-radius: 100%;
-           box-shadow: 0 -2px 10px lightgrey;
-           width: 150vw;
-           bottom: 0;
-           left: -25vw;
-           position: absolute;
+margin-bottom: 0;
+border: 0;
          }
+
 
 
 /* PORTFOLIO PAGE */
@@ -626,6 +641,55 @@ transition: .5s;
   }
   .read-more{
     background-color: $graphite;
+  }
+}
+
+
+/* MODALS */
+.modal-gallery{
+ul{
+list-style: none;
+li{
+  padding: 5px;
+  img{
+    padding: 0;
+  }
+}
+}
+}
+
+.modal-body{
+  p{
+    text-align: justify;
+    font-size: 16px;
+  }
+}
+
+.close-button-modal{
+  border: 1px solid lightgrey;
+  outline: none;
+  width: 100px;
+  background-color: white;
+  color: grey;
+  margin-right: 35px!important;
+  transition: .25s;
+}
+
+.close-button-modal:hover{
+  border: 1px solid $pink;
+  color: $pink;
+}
+
+.project-links{
+  margin-top: 25px;
+  a{
+    color: $pink;
+    transition: .25s;
+    text-decoration: none;
+  }
+  a:hover{
+    color: $purple;
+    text-decoration: none;
   }
 }
 
@@ -988,25 +1052,24 @@ padding-bottom: 20px;
 
 .message{
   margin-top: 30px;
-  color: $turqoise;
+  color: $pink;
   transition: .25s;
 }
 
 .message:hover{
   text-decoration: none;
-  color: $turqoise;
-  opacity: .5;
+  color: $purple;
 }
 
 .contact-list{
   list-style: none;
   li{
     a{
-color: $turqoise;
+color: $pink;
 transition: .25s;
 }
 a:hover{
-  opacity: .5;
+  color: $purple;
   text-decoration: none;
 }
 }
@@ -1771,20 +1834,9 @@ h3{
   overflow: hidden;
   padding-top: 10px!important;
   position: relative;
-  height: 350px;
   margin-top: 0px;
 
 }
-.map{
-  border-top-left-radius: 100%;
-  border-top-right-radius: 100%;
-  box-shadow: 0 -2px 10px lightgrey;
-  width: 100vw;
-  bottom: -100px;
-  left: 0vw;
-  position: absolute;
-}
-
 
 
 
@@ -2137,19 +2189,10 @@ h3{
     overflow: hidden;
     padding-top: 10px!important;
     position: relative;
-    height: 350px;
     margin-top: 0px;
 
   }
-  .map{
-    border-top-left-radius: 100%;
-    border-top-right-radius: 100%;
-    box-shadow: 0 -2px 10px lightgrey;
-    width: 100vw;
-    bottom: -100px;
-    left: 0vw;
-    position: absolute;
-  }
+
 
 
 
