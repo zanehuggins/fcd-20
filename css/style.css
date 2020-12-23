@@ -280,6 +280,10 @@ footer {
         text-decoration: none;
         color: #6B408E; }
 
+#scene-ar {
+  height: 90vh;
+  width: 100vw; }
+
 /* ANIMATIONS ---------------------------------------- */
 @keyframes scale {
   0% {

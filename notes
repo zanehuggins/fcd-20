@@ -1,0 +1,16 @@
+<!--
+	<a-scene embedded arjs='sourceType: webcam;'>
+	<!--	<a-box position='0 0.5 0' material='opacity: 0.5;'></a-box> -->
+		<a-marker-camera preset='hiro'></a-marker-camera>
+    <!--  <a-box color="red" scale="2 2 2"></a-box> -->
+    <a-assets>
+  <a-asset-item id="tree" src="models/scene.gltf">
+</a-assets>
+
+<!-- Using the asset management system. -->
+<a-gltf-model src="#tree"></a-gltf-model>
+
+<!-- Defining the URL inline. Not recommended but more comfortable for web developers. -->
+<a-gltf-model src="models/scene.gltf"></a-gltf-model>
+
+	</a-scene>
