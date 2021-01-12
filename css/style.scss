@@ -662,11 +662,52 @@ li{
 }
 }
 
+.close-modal{
+  border: 1px solid $pink;
+  background-color: white;
+  color: $pink;
+  transition: .5s;
+}
+
+.close-modal:hover{
+  background-color: $pink;
+  color: white;
+}
+
+.modal-logo{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .modal-body{
+
   p{
     text-align: justify;
     font-size: 16px;
+    margin-top: 0!important;
   }
+}
+
+
+
+.reveal-1{
+  opacity: 0;
+}
+
+.reveal-2{
+  opacity: 0;
+}
+
+.reveal-3{
+  opacity: 0;
+}
+
+.reveal-4{
+  opacity: 0;
+}
+
+.image-1:hover .reveal-1{
+  opacity: 1;
 }
 
 .close-button-modal{
@@ -1496,7 +1537,19 @@ a:hover{
   opacity: .5;
 }
   }
+
+  .modal-body{
+    p{
+      text-align: justify;
+      font-size: 16px;
+    }
+    .modal-text{
+      margin-top: 50px;
+    }
+  }
 }
+
+
 
 @media (min-width: 1024px){
 
