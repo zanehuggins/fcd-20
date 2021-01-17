@@ -284,6 +284,31 @@ footer {
   height: 90vh;
   width: 100vw; }
 
+/* PRACTICE */
+.practice {
+  background-color: #00AE97;
+  height: 50vh;
+  float: left; }
+
+.practice-2 {
+  background-color: #EF435E;
+  float: left;
+  height: 50vh; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 83.25% 16.75%;
+  margin-top: 50vh; }
+
+.practice-3 {
+  height: 50vh;
+  background-color: #EF435E;
+  grid-column: 1 / 2; }
+
+.practice-4 {
+  grid-column: 2 / span 1;
+  background-color: #00AE97; }
+
 /* ANIMATIONS ---------------------------------------- */
 @keyframes scale {
   0% {
@@ -1184,6 +1209,162 @@ form {
   .article-portfolio {
     margin-top: 0px !important; } }
 /* CLOSES 768PX MEDIA QUERY */
+@media (min-width: 540px) {
+  .branding {
+    background-color: #6B408E;
+    height: 20vw;
+    width: 20vw;
+    border-radius: 100%;
+    top: 45vh;
+    left: 3.5vw;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    transition: .25s;
+    animation: scale 1s; }
+    .branding h3 {
+      margin-top: 11vw; }
+
+  .branding:hover {
+    color: white;
+    text-decoration: none; }
+
+  .branding:hover {
+    color: white;
+    text-decoration: none;
+    height: 22vw;
+    width: 22vw;
+    left: 2.5vw;
+    top: 44.5vh; }
+
+  .web {
+    background-color: #EF435E;
+    height: 20vw;
+    width: 20vw;
+    border-radius: 100%;
+    top: 60vh;
+    left: 39vw;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    transition: .25s;
+    animation: scale-2 1s; }
+    .web h3 {
+      margin-top: 11vw; }
+
+  .web:hover {
+    color: white;
+    text-decoration: none;
+    height: 22vw;
+    width: 22vw;
+    top: 59.5vh;
+    left: 38vw; }
+
+  .social-media {
+    background-color: #00AE97;
+    height: 20vw;
+    width: 20vw;
+    border-radius: 100%;
+    top: 45vh;
+    right: 2.5vw;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    transition: .25s;
+    animation: scale-3 1s; }
+    .social-media h3 {
+      margin-top: 9vw; }
+
+  .social-media:hover {
+    color: white;
+    text-decoration: none;
+    height: 22vw;
+    width: 22vw;
+    right: 2vw;
+    top: 44.5vh; } }
+/* END MEDIA 540 PX */
+@media (min-width: 768px) {
+  .branding {
+    background-color: #6B408E;
+    height: 20vw;
+    width: 20vw;
+    border-radius: 100%;
+    top: 55vh;
+    left: 13vw;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    transition: .25s;
+    animation: scale 1s; }
+    .branding h3 {
+      margin-top: 11vw; }
+
+  .branding:hover {
+    color: white;
+    text-decoration: none; }
+
+  .branding:hover {
+    color: white;
+    text-decoration: none;
+    height: 22vw;
+    width: 22vw;
+    left: 12vw;
+    top: 54vh; }
+
+  .web {
+    background-color: #EF435E;
+    height: 20vw;
+    width: 20vw;
+    border-radius: 100%;
+    top: 77vh;
+    left: 39vw;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    transition: .25s;
+    animation: scale-2 1s; }
+    .web h3 {
+      margin-top: 11vw; }
+
+  .web:hover {
+    color: white;
+    text-decoration: none;
+    height: 22vw;
+    width: 22vw;
+    top: 76vh;
+    left: 38vw; }
+
+  .social-media {
+    background-color: #00AE97;
+    height: 20vw;
+    width: 20vw;
+    border-radius: 100%;
+    top: 55vh;
+    right: 13vw;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    transition: .25s;
+    animation: scale-3 1s; }
+    .social-media h3 {
+      margin-top: 9vw; }
+
+  .social-media:hover {
+    color: white;
+    text-decoration: none;
+    height: 22vw;
+    width: 22vw;
+    right: 12vw;
+    top: 54vh; }
+
+  article {
+    margin-top: 30vh; } }
 @media (min-width: 992px) {
   .desktop-nav {
     position: fixed;
@@ -1303,8 +1484,7 @@ form {
     font-size: 18px; }
 
   .portfolio {
-    height: 42vw !important;
-    overflow: hidden; }
+    height: 42vw !important; }
 
   .item-1 {
     right: 35vw !important;
@@ -1594,7 +1774,6 @@ form {
 
   .portfolio {
     height: 40vh !important;
-    overflow: hidden;
     min-height: 525px; }
 
   /* PORTFOLIO ---------------------------------------- */
@@ -1935,6 +2114,45 @@ form {
     height: 15vw;
     position: absolute;
     top: 10vw;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: .25s; }
+
+  .circle-6 {
+    border-radius: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.1);
+    width: 40vw;
+    height: 40vw;
+    position: absolute;
+    top: -2.5vw;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: .25s; }
+
+  .circle-7 {
+    border-radius: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.1);
+    width: 45vw;
+    height: 45vw;
+    position: absolute;
+    top: -5vw;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: .25s; }
+
+  .circle-8 {
+    border-radius: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.1);
+    width: 50vw;
+    height: 50vw;
+    position: absolute;
+    top: -7.5vw;
     bottom: 0;
     left: 0;
     right: 0;
