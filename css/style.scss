@@ -673,22 +673,30 @@ transition: .5s;
   display: none;
   transition: .25s;
   a{
-    color: white;
-    text-align: center;
+    color: $pink!important;
+    text-align: left;
     border: 1px solid white;
     height: 40px;
     padding-top: 7.5px;
+    img{
+      width: 35px;
+      height: auto;
+      float: left;
+      padding-right: 10px;
+    }
+    p{
+      float: left;
+      padding-top: 10px!important;
+    }
   }
   a:hover{
     text-decoration: none;
   }
   .website{
-    background-color: $pink;
-  }
-  .read-more{
-    background-color: $graphite;
+
   }
 }
+
 
 
 /* MODALS */
@@ -1400,8 +1408,8 @@ transition: .5s;
     display: none;
     transition: .25s;
     a{
-      color: white;
-      text-align: center;
+      color: $pink;
+      text-align: left;
       border: 1px solid white;
       height: 40px;
       padding-top: 7.5px;
@@ -1410,10 +1418,10 @@ transition: .5s;
       text-decoration: none;
     }
     .website{
-      background-color: $pink;
+
     }
     .read-more{
-      background-color: $graphite;
+
     }
   }
 
