@@ -12,6 +12,17 @@ html,body{
     overflow-x: hidden;
 }
 
+#change-color{
+color: green;
+}
+.button5{
+  background-color: $black;
+}
+.change-color{
+  background-color: $pink!important
+}
+
+
 h1{
 font-size: 30px;
 font-family: itc-avant-garde-gothic-pro, sans-serif;
