@@ -11,6 +11,9 @@ $turqoise: #00AE97;
 html,body{
     overflow-x: hidden;
 }
+body{
+scroll-behavior: smooth;
+}
 
 #change-color{
 color: green;
@@ -662,6 +665,8 @@ transition: .5s;
 .article-portfolio{
   position: relative;
   margin-top: 5vw;
+  padding-left: 0;
+  padding-right: 0;
 
   padding-bottom: 10vw!important;
   ul{
@@ -672,12 +677,16 @@ transition: .5s;
 .item-display{
   display: none;
   transition: .25s;
+  position: absolute;
+  top: -2vh;
+  margin: 0;
+  padding: 0;
   a{
     color: $pink!important;
     text-align: left;
-    border: 1px solid white;
     height: 40px;
     padding-top: 7.5px;
+
     img{
       width: 35px;
       height: auto;
@@ -697,6 +706,45 @@ transition: .5s;
   }
 }
 
+.logo-full{
+  height: 100vh;
+  width: 100vw!important;
+  .portfolio-logo{
+  }
+
+  p{
+    margin-top: 10vh;
+      z-index: 100;
+      color: white;
+  }
+}
+
+.portfolio-logo{
+  margin-top: 17.5vh;
+}
+
+.background-image{
+  width: 35vw;
+  position: absolute;
+  right: 0;
+  z-index: 0;
+}
+
+.icon-container{
+  z-index: 1;
+  margin-top: 10vh;
+  padding: 25px;
+}
+
+#cc{
+  background-color: black;
+}
+
+.background-black{
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+}
 
 
 /* MODALS */
@@ -1410,7 +1458,6 @@ transition: .5s;
     a{
       color: $pink;
       text-align: left;
-      border: 1px solid white;
       height: 40px;
       padding-top: 7.5px;
     }
@@ -1553,6 +1600,7 @@ transition: .5s;
 .article-portfolio{
   margin-top: 0px!important;
 }
+
 
 } /* CLOSES 768PX MEDIA QUERY */
 
@@ -1744,6 +1792,9 @@ article{
 li{
   float: left;
   padding-right: 25px;
+  a{
+  color: $graphite;
+}
 }
 
 
