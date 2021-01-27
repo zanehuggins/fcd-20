@@ -1,7 +1,10 @@
 /* COLOR PALETTE ---------------------------------------- */
 /* DEFAULT ---------------------------------------- */
 html, body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  height: 100vh; }
 
 body {
   scroll-behavior: smooth;
@@ -1578,7 +1581,7 @@ form {
     font-size: 18px; }
 
   .portfolio {
-    height: 42vw !important; }
+    height: 100vh !important; }
 
   .item-1 {
     right: 35vw !important;
@@ -1867,10 +1870,15 @@ form {
     margin-top: 0 !important; }
 
   .portfolio {
-    height: 40vh !important;
+    height: 100vh !important;
     min-height: 525px; }
 
   /* PORTFOLIO ---------------------------------------- */
+  .article-portfolio {
+    padding-top: 0;
+    margin-top: -25vh !important;
+    z-index: 100; }
+
   .item-1 {
     right: 38vw !important;
     top: 5.5vw !important;
