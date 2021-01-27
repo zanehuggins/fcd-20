@@ -415,7 +415,7 @@ footer {
 
 /* PORTFOLIO PAGE */
 .portfolio {
-  height: 101vw; }
+  height: 100vh; }
 
 .portfolio-item {
   position: absolute;
@@ -525,13 +525,17 @@ footer {
   opacity: .5; }
 
 .article-portfolio {
+  z-index: 100;
+  top: -50vh;
   position: relative;
-  margin-top: 5vw;
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 10vw !important; }
   .article-portfolio ul {
     list-style: none; }
+
+.links-container a {
+  width: 50%; }
 
 .item-display {
   display: none;
@@ -565,21 +569,25 @@ footer {
     color: white; }
 
 .portfolio-logo {
-  margin-top: 17.5vh; }
+  margin-top: 17.5vh;
+  z-index: 1; }
 
 .background-image {
-  width: 35vw;
+  width: 75vw;
   position: absolute;
   right: 0;
-  z-index: 0; }
+  z-index: 0;
+  margin-top: -5vh; }
 
 .icon-container {
   z-index: 1;
-  margin-top: 10vh;
-  padding: 25px; }
+  margin-top: 5vh; }
+  .icon-container img {
+    width: 16.67%; }
 
 #cc {
-  background-color: black; }
+  background-color: black;
+  overflow: hidden; }
 
 .mockup-container {
   margin-top: 10vh; }
