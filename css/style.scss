@@ -668,17 +668,26 @@ transition: .5s;
 
 .article-portfolio{
   z-index: 100;
-  top: -50vh;
+  top: -35vh;
   position: relative;
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 10vw!important;
+  h2{
+    font-size: 18px;
+  }
   ul{
     list-style: none;
+    li{
+      font-size: 14px;
+    }
   }
 }
 
 .links-container{
+  margin: 0;
+  padding-top: 0;
+  margin-bottom: 5vh;
   a{
     width: 50%;
   }
@@ -688,7 +697,6 @@ transition: .5s;
   display: none;
   transition: .25s;
   position: absolute;
-  top: -2vh;
   margin: 0;
   padding: 0;
   a{
