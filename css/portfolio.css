@@ -1,4 +1,134 @@
 #cc {
   background-color: black; }
 
+header {
+  padding: 25px 0px 0px 0px !important;
+  position: absolute;
+  z-index: 20; }
+
+@-moz-document url-prefix() {
+  .navigation {
+    background-color: rgba(255, 255, 255, 0.85); } }
+.social-media-list {
+  list-style: none;
+  margin-top: -40px !important; }
+  .social-media-list a {
+    width: 30px;
+    margin-left: 20px !important;
+    transition: .25s; }
+    .social-media-list a img {
+      width: 30px; }
+  .social-media-list a:hover {
+    opacity: .5; }
+
+.navigation {
+  display: none;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: .25s;
+  opacity: 1;
+  position: fixed;
+  height: 100vh;
+  z-index: 10;
+  animation: opacity .25s;
+  background-color: rgba(0, 0, 0, 0.5); }
+  .navigation ul {
+    list-style: none;
+    margin-top: 100px; }
+    .navigation ul li {
+      width: 100%;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px; }
+      .navigation ul li a {
+        color: white;
+        transition: .25s; }
+      .navigation ul li a:hover {
+        text-decoration: none;
+        opacity: .5; }
+
+.menu-close {
+  width: 25vw !important; }
+  .menu-close img {
+    width: 15%; }
+
+@keyframes opacity {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+.portfolio-logo {
+  margin-top: 12.5vh;
+  z-index: 1; }
+
+.icon-container {
+  padding-top: 10vh;
+  z-index: 1; }
+  .icon-container img {
+    width: 16%;
+    padding: 0; }
+
+.portfolio-description {
+  margin-top: 7.5vh;
+  color: white; }
+
+.portfolio-description-bottom {
+  color: white;
+  position: absolute;
+  bottom: 12.5vh; }
+
+#cc {
+  position: relative;
+  min-height: 100vh; }
+
+.background-image {
+  width: 75vw;
+  position: absolute;
+  right: 0;
+  z-index: 0;
+  margin-top: -5vh; }
+
+.background-black {
+  height: 100vh;
+  background-color: black;
+  position: relative;
+  overflow: hidden; }
+
+#cc-mockups .mockup-1 {
+  position: absolute;
+  margin-top: 35vh;
+  width: 130vw;
+  left: -15vw; }
+#cc-mockups .mockup-2 {
+  position: absolute;
+  margin-top: 35vh; }
+#cc-mockups h2 {
+  color: white;
+  position: absolute;
+  margin-top: 7.5vh;
+  text-transform: uppercase; }
+
+@media (min-width: 992px) {
+  .desktop-nav {
+    position: fixed;
+    list-style: none;
+    transform: rotate(-90deg);
+    top: 375px;
+    left: -245px;
+    z-index: 200; }
+    .desktop-nav li {
+      float: left;
+      padding-right: 25px; }
+      .desktop-nav li a {
+        color: white; }
+    .desktop-nav #active-desktop {
+      border-top: 10px solid #EF435E;
+      padding-top: 10px; }
+    .desktop-nav a {
+      color: black;
+      transition: .25s; }
+    .desktop-nav a:hover {
+      text-decoration: none;
+      opacity: .5; } }
+
 /*# sourceMappingURL=portfolio.css.map */

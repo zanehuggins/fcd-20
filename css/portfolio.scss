@@ -1,3 +1,198 @@
+$graphite: #707071;
+$black: #000000;
+$purple: #6B408E;
+$pink: #EF435E;
+$turqoise: #00AE97;
+
 #cc{
   background-color: black;
+}
+
+header{
+  padding: 25px 0px 0px 0px!important;
+  position: absolute;
+  z-index: 20;
+
+}
+
+
+@-moz-document url-prefix() {
+    .navigation {
+        background-color: rgba(255, 255, 255, .85);
+    }
+}
+
+.social-media-list{
+  list-style: none;
+  margin-top: -40px!important;
+  li{
+
+  }
+  a{
+    width: 30px;
+      margin-left: 20px!important;
+      transition: .25s;
+    img{
+      width: 30px;
+    }
+  }
+  a:hover{
+    opacity: .5;
+  }
+}
+
+.navigation{
+  display: none;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: .25s;
+  opacity: 1;
+  position: fixed;
+height: 100vh;
+z-index: 10;
+animation: opacity .25s;
+background-color: rgba(000, 000, 000, .5);
+  ul{
+    list-style: none;
+margin-top: 100px;
+
+  li{
+    width: 100%;
+    text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    a{
+color: white;
+transition: .25s;
+    }
+    a:hover{
+      text-decoration: none;
+      opacity: .5;
+    }
+  }
+}
+}
+
+.menu-close{
+  width: 25vw!important;
+  img{
+    width: 15%;
+  }
+}
+
+@keyframes opacity{
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+
+
+.portfolio-logo{
+margin-top: 12.5vh;
+z-index: 1;
+}
+
+.icon-container{
+  padding-top: 10vh;
+  z-index: 1;
+  img{
+    width: 16%;
+    padding: 0;
+  }
+}
+
+.portfolio-description{
+  margin-top: 7.5vh;
+  color: white;
+}
+
+.portfolio-description-bottom{
+  color: white;
+  position: absolute;
+  bottom: 12.5vh;
+}
+
+#cc{
+  position: relative;
+  min-height: 100vh;
+}
+
+.background-image{
+  width: 75vw;
+  position: absolute;
+  right: 0;
+  z-index: 0;
+  margin-top: -5vh;
+}
+
+.background-black{
+  height: 100vh;
+  background-color: black;
+  position: relative;
+  overflow: hidden;
+}
+
+
+#cc-mockups{
+.mockup-1{
+  position: absolute;
+  margin-top: 35vh;
+  width: 130vw;
+  left: -15vw;
+}
+.mockup-2{
+  position: absolute;
+  margin-top: 35vh;
+}
+
+h2{
+  color: white;
+  position: absolute;
+  margin-top: 7.5vh;
+  text-transform: uppercase;
+}
+}
+
+
+
+
+
+
+
+@media (min-width: 992px){
+  .desktop-nav{
+    position: fixed;
+    list-style: none;
+    transform: rotate(-90deg);
+    top: 375px;
+    left: -245px;
+    z-index: 200;
+li{
+  float: left;
+  padding-right: 25px;
+  a{
+  color: white;
+}
+}
+
+
+
+
+
+
+#active-desktop{
+  border-top: 10px solid $pink;
+    padding-top: 10px;
+}
+
+a{
+  color: black;
+  transition: .25s;
+}
+a:hover{
+  text-decoration: none;
+  opacity: .5;
+}
+  }
 }
