@@ -157,7 +157,7 @@ header {
   margin-top: 5vh; }
 
 #bsre-mockups {
-  height: 100vh; }
+  min-height: 100vh; }
   #bsre-mockups video {
     padding: 2.5px; }
   #bsre-mockups .portfolio-description-bottom {
