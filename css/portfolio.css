@@ -105,8 +105,7 @@ header {
 
 .portfolio-description-bottom {
   color: white;
-  position: absolute;
-  bottom: 12.5vh; }
+  margin-top: 7.5vh; }
 
 .background-image {
   width: 75vw;
