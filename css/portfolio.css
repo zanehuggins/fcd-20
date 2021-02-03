@@ -184,6 +184,9 @@ header {
       transition: .25s; }
     .desktop-nav a:hover {
       text-decoration: none;
-      opacity: .5; } }
+      opacity: .5; }
+
+  #bsre video {
+    margin-top: 0vh !important; } }
 
 /*# sourceMappingURL=portfolio.css.map */
