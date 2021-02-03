@@ -105,7 +105,8 @@ header {
 
 .portfolio-description-bottom {
   color: white;
-  margin-top: 7.5vh; }
+  bottom: 10vh;
+  position: absolute; }
 
 .background-image {
   width: 75vw;
@@ -138,7 +139,7 @@ header {
 
 #cc-mockups .mockup-1 {
   position: absolute;
-  margin-top: 35vh;
+  margin-top: 40vh;
   width: 130vw;
   left: -15vw; }
 #cc-mockups .mockup-2 {
@@ -149,6 +150,8 @@ header {
   position: absolute;
   margin-top: 7.5vh;
   text-transform: uppercase; }
+#cc-mockups p {
+  bottom: 0; }
 
 #bsre video {
   margin-top: 10vh; }
