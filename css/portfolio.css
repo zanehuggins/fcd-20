@@ -103,11 +103,12 @@ header {
 
 .portfolio-description {
   margin-top: 7.5vh;
-  color: white; }
+  color: white;
+  text-align: center; }
 
 .portfolio-description-bottom {
   color: white;
-  bottom: 10vh; }
+  text-align: center; }
 
 .background-image {
   width: 75vw;
@@ -160,8 +161,9 @@ header {
   position: absolute;
   margin-top: 7.5vh;
   text-transform: uppercase; }
-#cc-mockups p {
-  bottom: 0; }
+#cc-mockups .portfolio-description-bottom {
+  color: white !important;
+  margin-top: 75vh !important; }
 
 #bsre video {
   margin-top: 10vh; }
@@ -177,7 +179,7 @@ header {
     padding: 2.5px; }
   #bsre-mockups .portfolio-description-bottom {
     color: black !important;
-    margin-top: 12.5vh; }
+    margin-top: 2.5vh; }
 
 @media (min-width: 992px) {
   .desktop-nav {

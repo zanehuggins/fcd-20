@@ -158,11 +158,12 @@ z-index: 1;
 .portfolio-description{
   margin-top: 7.5vh;
   color: white;
+      text-align: center;
 }
 
 .portfolio-description-bottom{
   color: white;
-bottom: 10vh;
+      text-align: center;
 
 }
 
@@ -235,8 +236,10 @@ h2{
   margin-top: 7.5vh;
   text-transform: uppercase;
 }
-p{
-  bottom: 0;
+
+.portfolio-description-bottom{
+  color: white!important;
+  margin-top: 75vh!important;
 }
 }
 
@@ -249,6 +252,7 @@ p{
     color: black;
     margin-top: 10vh;
   }
+
   .photo-container{
   margin-top: 5vh;
   }
@@ -261,7 +265,7 @@ padding: 2.5px;
   }
   .portfolio-description-bottom{
     color: black!important;
-    margin-top: 12.5vh;
+    margin-top: 2.5vh;
   }
 }
 
