@@ -180,6 +180,9 @@ bottom: 10vh;
   background-color: black;
   position: relative;
   overflow: hidden;
+  h2{
+    margin-top: 5vh;
+  }
 }
 
 .background-white{
@@ -187,11 +190,17 @@ bottom: 10vh;
   background-color: white;
   position: relative;
   overflow: hidden;
+  h2{
+    margin-top: 5vh;
+  }
 }
 
 .background-grey{
   background-color: #f2f2f2;
   min-height: 100vh;
+  h2{
+    margin-top: 5vh;
+  }
 }
 
 .background-none{
@@ -199,6 +208,12 @@ bottom: 10vh;
   background-color: none;
   position: relative;
   overflow: hidden;
+}
+
+.photo-gallery{
+  a{
+    padding: 5px;
+  }
 }
 
 
@@ -232,7 +247,10 @@ p{
   }
   .portfolio-description{
     color: black;
-    margin-top: 5vh;
+    margin-top: 10vh;
+  }
+  .photo-container{
+  margin-top: 5vh;
   }
 }
 
@@ -243,6 +261,7 @@ padding: 2.5px;
   }
   .portfolio-description-bottom{
     color: black!important;
+    margin-top: 12.5vh;
   }
 }
 
