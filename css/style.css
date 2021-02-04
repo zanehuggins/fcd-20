@@ -541,7 +541,7 @@ footer {
   display: none;
   transition: .25s;
   position: absolute;
-  top: -2vh;
+  top: 0vh;
   margin: 0;
   padding: 0; }
   .item-display h2 {
