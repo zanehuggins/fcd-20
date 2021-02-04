@@ -415,7 +415,8 @@ footer {
 
 /* PORTFOLIO PAGE */
 .portfolio {
-  height: 100vh; }
+  height: 100vh;
+  margin-top: -5vh; }
 
 .portfolio-item {
   position: absolute;
