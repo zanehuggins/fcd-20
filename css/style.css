@@ -545,6 +545,8 @@ footer {
   top: -2vh;
   margin: 0;
   padding: 0; }
+  .item-display h2 {
+    font-size: 20px; }
   .item-display a {
     color: #EF435E !important;
     text-align: left;
