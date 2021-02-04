@@ -681,12 +681,7 @@ transition: .5s;
   }
 }
 
-.links-container{
 
-  a{
-    width: 50%;
-  }
-}
 
 .item-display{
   display: none;
@@ -699,8 +694,8 @@ transition: .5s;
     font-size: 20px;
   }
   a{
-    color: $pink!important;
-    text-align: left;
+    color: white;
+    text-align: center;
     height: 40px;
     padding-top: 7.5px;
 
@@ -718,8 +713,14 @@ transition: .5s;
   a:hover{
     text-decoration: none;
   }
+  .view-project{
+    background-color: $turqoise;
+  }
   .website{
-
+background-color: $pink;
+  }
+  li{
+    padding: 1px;
   }
 }
 

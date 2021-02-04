@@ -534,9 +534,6 @@ footer {
   .article-portfolio ul {
     list-style: none; }
 
-.links-container a {
-  width: 50%; }
-
 .item-display {
   display: none;
   transition: .25s;
@@ -547,8 +544,8 @@ footer {
   .item-display h2 {
     font-size: 20px; }
   .item-display a {
-    color: #EF435E !important;
-    text-align: left;
+    color: white;
+    text-align: center;
     height: 40px;
     padding-top: 7.5px; }
     .item-display a img {
@@ -561,6 +558,12 @@ footer {
       padding-top: 10px !important; }
   .item-display a:hover {
     text-decoration: none; }
+  .item-display .view-project {
+    background-color: #00AE97; }
+  .item-display .website {
+    background-color: #EF435E; }
+  .item-display li {
+    padding: 1px; }
 
 .logo-full {
   height: 100vh;
