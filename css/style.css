@@ -534,6 +534,9 @@ footer {
   .article-portfolio ul {
     list-style: none; }
 
+@-moz-document url-prefix() {
+  .article-portfolio {
+    top: -35vh; } }
 .item-display {
   display: none;
   transition: .25s;
