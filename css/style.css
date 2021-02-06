@@ -536,7 +536,7 @@ footer {
 
 @-moz-document url-prefix() {
   .article-portfolio {
-    top: -30vh; } }
+    top: -15vh; } }
 .item-display {
   display: none;
   transition: .25s;
