@@ -226,25 +226,29 @@ header {
 .photo-gallery a {
   padding: 5px; }
 
-#cc-mockups .mockup-1 {
-  position: absolute;
-  margin-top: 40vh;
-  width: 130vw;
-  left: -15vw; }
-#cc-mockups .mockup-2 {
-  position: absolute;
-  margin-top: 35vh; }
-#cc-mockups h2 {
-  color: white;
-  position: absolute;
-  margin-top: 7.5vh;
-  text-transform: uppercase; }
-#cc-mockups .portfolio-description-bottom {
-  color: white !important;
-  margin-top: 75vh !important; }
+#cc-mockups {
+  position: relative; }
+  #cc-mockups .mockup-1 {
+    position: absolute;
+    margin-top: 40vh;
+    width: 130vw;
+    left: -15vw; }
+  #cc-mockups .mockup-2 {
+    position: absolute;
+    margin-top: 35vh; }
+  #cc-mockups h2 {
+    color: white;
+    position: absolute;
+    margin-top: 7.5vh;
+    text-transform: uppercase; }
+  #cc-mockups .portfolio-description-bottom {
+    color: white !important;
+    top: 75vh;
+    position: absolute; }
 
 #bsre video {
-  margin-top: 10vh; }
+  margin-top: 10vh;
+  outline: none !important; }
 #bsre .portfolio-description {
   color: black;
   margin-top: 10vh; }
@@ -252,12 +256,13 @@ header {
   margin-top: 5vh; }
 
 #bsre-mockups {
-  min-height: 100vh; }
+  min-height: 100vh;
+  padding: 0; }
   #bsre-mockups video {
     padding: 2.5px; }
   #bsre-mockups .portfolio-description-bottom {
-    color: black !important;
-    margin-top: 2.5vh; }
+    color: black;
+    margin-top: 10vh; }
 
 #fgm-mockups {
   position: relative;

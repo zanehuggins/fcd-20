@@ -345,6 +345,7 @@ z-index: 1;
 
 
 #cc-mockups{
+  position: relative;
 .mockup-1{
   position: absolute;
   margin-top: 40vh;
@@ -365,7 +366,8 @@ h2{
 
 .portfolio-description-bottom{
   color: white!important;
-  margin-top: 75vh!important;
+  top: 75vh;
+  position: absolute;
 }
 }
 
@@ -373,6 +375,7 @@ h2{
 #bsre{
   video{
     margin-top: 10vh;
+    outline: none!important;
   }
   .portfolio-description{
     color: black;
@@ -386,12 +389,13 @@ h2{
 
 #bsre-mockups{
   min-height: 100vh;
+      padding: 0;
   video{
 padding: 2.5px;
   }
   .portfolio-description-bottom{
-    color: black!important;
-    margin-top: 2.5vh;
+    color: black;
+    margin-top: 10vh;
   }
 }
 
