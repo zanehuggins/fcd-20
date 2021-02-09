@@ -282,7 +282,8 @@ header {
     text-transform: uppercase; }
   #fgm-mockups .portfolio-description-bottom {
     color: black !important;
-    bottom: 10vh !important; }
+    top: 75vh;
+    position: absolute; }
 
 @media (min-width: 992px) {
   .desktop-nav {
