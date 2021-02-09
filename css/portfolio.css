@@ -81,8 +81,7 @@
 .portfolio-description-bottom {
   color: black;
   text-align: center;
-  position: absolute;
-  bottom: 10vh; }
+  margin-top: 10vh; }
 
 #cc {
   background-color: black;
